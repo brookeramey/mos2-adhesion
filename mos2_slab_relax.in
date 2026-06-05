@@ -1,0 +1,55 @@
+&CONTROL
+  calculation   = 'relax'
+  prefix        = 'mos2_slab'
+  outdir        = './tmp/relax/'
+  pseudo_dir    = './pseudo/'
+  verbosity     = 'low'
+  tprnfor       = .true.
+  tstress       = .false.
+  forc_conv_thr = 1.0e-4
+/
+
+&SYSTEM
+  ibrav=4
+  a=3.160
+  c=30.0
+  nat=12
+  ntyp=2
+  ecutwfc=80.0
+  ecutrho=640.0
+  occupations='smearing'
+  smearing='m-p'
+  degauss=0.02
+  input_dft='vdw-df2-b86r'
+/
+
+&ELECTRONS
+  mixing_mode   = 'local-TF'
+  mixing_beta   = 0.3
+  conv_thr      = 1.0e-8
+/
+
+&IONS
+  ion_dynamics  = 'bfgs'
+/
+
+ATOMIC_SPECIES
+  Mo  95.960  Mo.pbe-spn-kjpaw_psl.1.0.0.UPF
+  S   32.060  S.pbe-n-kjpaw_psl.1.0.0.UPF
+
+ATOMIC_POSITIONS crystal
+  S    0.3333330  0.6666670  0.0500000
+  Mo   0.0000000  0.0000000  0.0808333
+  S    0.3333330  0.6666670  0.1116667
+  S    0.6666670  0.3333330  0.1691667
+  Mo   0.3333330  0.6666670  0.2000000
+  S    0.6666670  0.3333330  0.2308333
+  S    0.0000000  0.0000000  0.2883333
+  Mo   0.6666670  0.3333330  0.3191667
+  S    0.0000000  0.0000000  0.3500000
+  S    0.3333330  0.6666670  0.4075000
+  Mo   0.0000000  0.0000000  0.4383333
+  S    0.3333330  0.6666670  0.4691667
+
+K_POINTS automatic
+16 16 1 0 0 0
