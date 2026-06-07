@@ -1,0 +1,47 @@
+&CONTROL
+  calculation   = 'scf'
+  prefix        = 'mos2_cleave'
+  outdir        = './tmp/cleave/cleave_dz025_dz6p5/'
+  pseudo_dir    = './pseudo/'
+  verbosity     = 'low'
+/
+
+&SYSTEM
+  ibrav=4
+  a=3.16
+  c=30.0
+  nat=12
+  ntyp=2
+  ecutwfc=80.0
+  ecutrho=640.0
+  occupations='smearing'
+  smearing='m-p'
+  degauss=0.02
+  input_dft='vdw-df2-b86r'
+/
+
+&ELECTRONS
+  mixing_mode   = 'local-TF'
+  mixing_beta   = 0.2
+  conv_thr      = 1.0e-8
+/
+
+ATOMIC_SPECIES
+  Mo  95.960  Mo.pbe-spn-kjpaw_psl.1.0.0.UPF
+  S   32.060  S.pbe-n-kjpaw_psl.1.0.0.UPF
+
+ATOMIC_POSITIONS crystal
+  S  0.3333328794  0.6666667587  -0.1049877899
+  Mo  0.0000000000  0.0000000000  -0.0525964321
+  S  0.3333328794  0.6666667587  -0.0001809091
+  S  0.6666667587  0.3333328794  0.1036040435
+  Mo  0.3333328794  0.6666667587  0.1560929369
+  S  0.6666667587  0.3333328794  0.2085443296
+  S  0.0000000000  0.0000000000  0.3116481327
+  Mo  0.6666667587  0.3333328794  0.3641373260
+  S  0.0000000000  0.0000000000  0.4165763268
+  S  0.3333328794  0.6666667587  0.7349868904
+  Mo  0.0000000000  0.0000000000  0.7874046100
+  S  0.3333328794  0.6666667587  0.8397694078
+K_POINTS automatic
+16 16 1 0 0 0
