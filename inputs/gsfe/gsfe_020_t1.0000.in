@@ -1,0 +1,42 @@
+&CONTROL
+  calculation   = 'scf'
+  prefix        = 'mos2_gsfe_020'
+  outdir        = './tmp/gsfe_020/'
+  pseudo_dir    = './pseudo/'
+  verbosity     = 'low'
+/
+
+&SYSTEM
+  ibrav=4
+  a=3.16
+  c=50.0
+  nat=6
+  ntyp=2
+  ecutwfc=80.0
+  ecutrho=640.0
+  occupations='smearing'
+  smearing='m-p'
+  degauss=0.02
+  input_dft='vdw-df2-b86r'
+/
+
+&ELECTRONS
+  mixing_mode   = 'local-TF'
+  mixing_beta   = 0.3
+  conv_thr      = 1.0e-8
+/
+
+ATOMIC_SPECIES
+  Mo  95.960  Mo.pbe-spn-kjpaw_psl.1.0.0.UPF
+  S   32.060  S.pbe-n-kjpaw_psl.1.0.0.UPF
+
+ATOMIC_POSITIONS crystal
+  S  0.333333  0.666667  0.405940
+  Mo 0.000000  0.000000  0.437375
+  S  0.333333  0.666667  0.468824
+  S  0.333333  0.666667  0.531095
+  Mo 0.000000  0.000000  0.562589
+  S  0.333333  0.666667  0.594060
+
+K_POINTS automatic
+16 16 1 0 0 0

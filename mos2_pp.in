@@ -1,0 +1,16 @@
+&INPUTPP
+  prefix        = 'mos2_cleave'
+  outdir        = './tmp/cleave2/cleave_dz000_dz0p0/'
+  filplot       = 'outputs/mos2_chden.dat'
+  plot_num      = 0
+/
+
+&PLOT
+  nfile         = 1
+  filepp(1)     = 'outputs/mos2_chden.dat'
+  weight(1)     = 1.0
+  iflag         = 3
+  output_format = 6
+  fileout       = 'outputs/mos2_chden_full.cube'
+  nx=40, ny=40, nz=480
+/

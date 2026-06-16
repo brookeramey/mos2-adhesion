@@ -1,0 +1,1431 @@
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+
+     Program PWSCF v.7.3 starts on 14Jun2026 at 12:24:51 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+         "P. Giannozzi et al., J. Chem. Phys. 152 154105 (2020);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI), running on     1 processors
+
+     MPI processes distributed on     1 nodes
+     8060 MiB available memory on the printing compute node when the environment starts
+
+     Waiting for input...
+     Reading input from standard input
+
+     Current dimensions of program PWSCF are:
+     Max number of different atomic species (ntypx) = 10
+     Max number of k-points (npk) =  40000
+     Max angular momentum in pseudopotentials (lmaxx) =  4
+     file Mo.pbe-spn-kjpaw_psl.1.0.0.UPF: wavefunction(s)  4S 4D renormalized
+     file S.pbe-n-kjpaw_psl.1.0.0.UPF: wavefunction(s)  3S 3P renormalized
+
+     IMPORTANT: XC functional enforced from input :
+     Exchange-correlation= VDW-DF2-B86R
+                           (   1   4  26   0   2   0   0)
+     Any further DFT definition will be discarded
+     Please, verify this is what you really want
+
+
+     Subspace diagonalization in iterative solution of the eigenvalue problem:
+     a serial algorithm will be used
+
+
+     G-vector sticks info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Sum        1573     769    223               797393   281171   43435
+
+     Using Slab Decomposition
+
+
+
+     bravais-lattice index     =            4
+     lattice parameter (alat)  =       5.9715  a.u.
+     unit-cell volume          =    2917.9067 (a.u.)^3
+     number of atoms/cell      =            6
+     number of atomic types    =            2
+     number of electrons       =        52.00
+     number of Kohn-Sham states=           31
+     kinetic-energy cutoff     =      80.0000  Ry
+     charge density cutoff     =     640.0000  Ry
+     scf convergence threshold =      1.0E-08
+     mixing beta               =       0.3000
+     number of iterations used =            8  local-TF  mixing
+     Exchange-correlation= VDW-DF2-B86R
+                           (   1   4  26   0   2   0   0)
+
+     celldm(1)=   5.971535  celldm(2)=   0.000000  celldm(3)=  15.822785
+     celldm(4)=   0.000000  celldm(5)=   0.000000  celldm(6)=   0.000000
+
+     crystal axes: (cart. coord. in units of alat)
+               a(1) = (   1.000000   0.000000   0.000000 )  
+               a(2) = (  -0.500000   0.866025   0.000000 )  
+               a(3) = (   0.000000   0.000000  15.822785 )  
+
+     reciprocal axes: (cart. coord. in units 2 pi/alat)
+               b(1) = (  1.000000  0.577350 -0.000000 )  
+               b(2) = (  0.000000  1.154701  0.000000 )  
+               b(3) = (  0.000000 -0.000000  0.063200 )  
+
+
+     PseudoPot. # 1 for Mo read from file:
+     ./pseudo/Mo.pbe-spn-kjpaw_psl.1.0.0.UPF
+     MD5 check sum: 4396e0c640fcce5c25f020efccf1ab12
+     Pseudo is Projector augmented-wave + core cor, Zval = 14.0
+     Generated using &quot;atomic&quot; code by A. Dal Corso  v.6.3
+     Shape of augmentation charge: PSQ
+     Using radial grid of 1229 points,  6 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+                l(3) =   1
+                l(4) =   1
+                l(5) =   2
+                l(6) =   2
+     Q(r) pseudized with 0 coefficients 
+
+
+     PseudoPot. # 2 for S  read from file:
+     ./pseudo/S.pbe-n-kjpaw_psl.1.0.0.UPF
+     MD5 check sum: fb45dfebcf3e72a4e1bd4a866ec2e262
+     Pseudo is Projector augmented-wave + core cor, Zval =  6.0
+     Generated using &quot;atomic&quot; code by A. Dal Corso  v.6.3
+     Shape of augmentation charge: PSQ
+     Using radial grid of 1151 points,  6 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+                l(3) =   1
+                l(4) =   1
+                l(5) =   2
+                l(6) =   2
+     Q(r) pseudized with 0 coefficients 
+
+
+     atomic species   valence    mass     pseudopotential
+     Mo               14.00    95.96000     Mo( 1.00)
+     S                 6.00    32.06000     S ( 1.00)
+
+      2 Sym. Ops. (no inversion) found
+
+
+
+   Cartesian axes
+
+     site n.     atom                  positions (alat units)
+         1        S      tau(   1) = (  -0.0000005   0.5773506   6.4231013  )
+         2        Mo     tau(   2) = (   0.0000000   0.0000000   6.9204905  )
+         3        S      tau(   3) = (  -0.0000005   0.5773506   7.4181013  )
+         4        S      tau(   4) = (   0.4999995   0.2309404   8.4034019  )
+         5        Mo     tau(   5) = (   0.0000000   0.5196152   8.9017247  )
+         6        S      tau(   6) = (   0.4999995   0.2309404   9.3996835  )
+
+     number of k points=    73  Methfessel-Paxton smearing, width (Ry)=  0.0200
+                       cart. coord. in units 2pi/alat
+        k(    1) = (   0.0000000   0.0000000   0.0000000), wk =   0.0078125
+        k(    2) = (   0.0000000   0.0721688   0.0000000), wk =   0.0156250
+        k(    3) = (   0.0000000   0.1443376   0.0000000), wk =   0.0156250
+        k(    4) = (   0.0000000   0.2165064   0.0000000), wk =   0.0156250
+        k(    5) = (   0.0000000   0.2886751   0.0000000), wk =   0.0156250
+        k(    6) = (   0.0000000   0.3608439   0.0000000), wk =   0.0156250
+        k(    7) = (   0.0000000   0.4330127   0.0000000), wk =   0.0156250
+        k(    8) = (   0.0000000   0.5051815   0.0000000), wk =   0.0156250
+        k(    9) = (   0.0000000  -0.5773503   0.0000000), wk =   0.0078125
+        k(   10) = (   0.0625000   0.1082532   0.0000000), wk =   0.0312500
+        k(   11) = (   0.0625000   0.1804220   0.0000000), wk =   0.0312500
+        k(   12) = (   0.0625000   0.2525907   0.0000000), wk =   0.0312500
+        k(   13) = (   0.0625000   0.3247595   0.0000000), wk =   0.0312500
+        k(   14) = (   0.0625000   0.3969283   0.0000000), wk =   0.0312500
+        k(   15) = (   0.0625000   0.4690971   0.0000000), wk =   0.0312500
+        k(   16) = (   0.0625000   0.5412659   0.0000000), wk =   0.0312500
+        k(   17) = (   0.1250000   0.2165064   0.0000000), wk =   0.0312500
+        k(   18) = (   0.1250000   0.2886751   0.0000000), wk =   0.0312500
+        k(   19) = (   0.1250000   0.3608439   0.0000000), wk =   0.0312500
+        k(   20) = (   0.1250000   0.4330127   0.0000000), wk =   0.0312500
+        k(   21) = (   0.1250000   0.5051815   0.0000000), wk =   0.0312500
+        k(   22) = (   0.1250000   0.5773503   0.0000000), wk =   0.0156250
+        k(   23) = (   0.1875000   0.3247595   0.0000000), wk =   0.0312500
+        k(   24) = (   0.1875000   0.3969283   0.0000000), wk =   0.0312500
+        k(   25) = (   0.1875000   0.4690971   0.0000000), wk =   0.0312500
+        k(   26) = (   0.1875000   0.5412659   0.0000000), wk =   0.0312500
+        k(   27) = (   0.2500000   0.4330127   0.0000000), wk =   0.0312500
+        k(   28) = (   0.2500000   0.5051815   0.0000000), wk =   0.0312500
+        k(   29) = (   0.2500000   0.5773503   0.0000000), wk =   0.0156250
+        k(   30) = (   0.3125000   0.5412659   0.0000000), wk =   0.0312500
+        k(   31) = (  -0.0625000   0.0360844   0.0000000), wk =   0.0312500
+        k(   32) = (  -0.1250000   0.0721688   0.0000000), wk =   0.0312500
+        k(   33) = (  -0.1875000   0.1082532   0.0000000), wk =   0.0312500
+        k(   34) = (  -0.2500000   0.1443376   0.0000000), wk =   0.0312500
+        k(   35) = (  -0.3125000   0.1804220   0.0000000), wk =   0.0312500
+        k(   36) = (  -0.3750000   0.2165064   0.0000000), wk =   0.0312500
+        k(   37) = (  -0.4375000   0.2525907   0.0000000), wk =   0.0312500
+        k(   38) = (   0.5000000  -0.2886751   0.0000000), wk =   0.0156250
+        k(   39) = (   0.1250000   0.0000000   0.0000000), wk =   0.0156250
+        k(   40) = (  -0.1250000   0.1443376   0.0000000), wk =   0.0312500
+        k(   41) = (   0.1875000   0.0360844   0.0000000), wk =   0.0312500
+        k(   42) = (  -0.1875000   0.1804220   0.0000000), wk =   0.0312500
+        k(   43) = (   0.2500000   0.0721688   0.0000000), wk =   0.0312500
+        k(   44) = (  -0.2500000   0.2165064   0.0000000), wk =   0.0312500
+        k(   45) = (   0.3125000   0.1082532   0.0000000), wk =   0.0312500
+        k(   46) = (  -0.3125000   0.2525907   0.0000000), wk =   0.0312500
+        k(   47) = (   0.3750000   0.1443376   0.0000000), wk =   0.0312500
+        k(   48) = (  -0.3750000   0.2886751   0.0000000), wk =   0.0312500
+        k(   49) = (   0.4375000   0.1804220   0.0000000), wk =   0.0312500
+        k(   50) = (  -0.4375000   0.3247595   0.0000000), wk =   0.0312500
+        k(   51) = (   0.5000000   0.2165064   0.0000000), wk =   0.0312500
+        k(   52) = (   0.2500000   0.0000000   0.0000000), wk =   0.0156250
+        k(   53) = (  -0.1875000   0.2525907   0.0000000), wk =   0.0312500
+        k(   54) = (   0.3125000   0.0360844   0.0000000), wk =   0.0312500
+        k(   55) = (  -0.2500000   0.2886751   0.0000000), wk =   0.0312500
+        k(   56) = (   0.3750000   0.0721688   0.0000000), wk =   0.0312500
+        k(   57) = (  -0.3125000   0.3247595   0.0000000), wk =   0.0312500
+        k(   58) = (   0.4375000   0.1082532   0.0000000), wk =   0.0312500
+        k(   59) = (  -0.3750000   0.3608439   0.0000000), wk =   0.0312500
+        k(   60) = (   0.5000000   0.1443376   0.0000000), wk =   0.0312500
+        k(   61) = (  -0.4375000   0.3969283   0.0000000), wk =   0.0312500
+        k(   62) = (   0.3750000   0.0000000   0.0000000), wk =   0.0156250
+        k(   63) = (  -0.2500000   0.3608439   0.0000000), wk =   0.0312500
+        k(   64) = (   0.4375000   0.0360844   0.0000000), wk =   0.0312500
+        k(   65) = (  -0.3125000   0.3969283   0.0000000), wk =   0.0312500
+        k(   66) = (   0.5000000   0.0721688   0.0000000), wk =   0.0312500
+        k(   67) = (  -0.3750000   0.4330127   0.0000000), wk =   0.0312500
+        k(   68) = (   0.5625000   0.1082532   0.0000000), wk =   0.0312500
+        k(   69) = (   0.5000000   0.0000000   0.0000000), wk =   0.0156250
+        k(   70) = (  -0.3125000   0.4690971   0.0000000), wk =   0.0312500
+        k(   71) = (   0.5625000   0.0360844   0.0000000), wk =   0.0312500
+        k(   72) = (  -0.3750000   0.5051815   0.0000000), wk =   0.0312500
+        k(   73) = (   0.6250000   0.0000000   0.0000000), wk =   0.0156250
+
+     Dense  grid:   797393 G-vectors     FFT dimensions: (  50,  50, 768)
+
+     Smooth grid:   281171 G-vectors     FFT dimensions: (  36,  36, 540)
+
+     Estimated max dynamical RAM per process >       4.00 GB
+
+     Initial potential from superposition of free atoms
+
+     starting charge      51.9981, renormalised to      52.0000
+
+     negative rho (up, down):  1.896E-04 0.000E+00
+
+
+     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     %                                                                      %
+     % You are using vdW-DF, which was implemented by the Thonhauser group. %
+     % Please cite the following two papers that made this development      %
+     % possible and the two reviews that describe the various versions:     %
+     %                                                                      %
+     %   T. Thonhauser et al., PRL 115, 136402 (2015).                      %
+     %   T. Thonhauser et al., PRB 76, 125112 (2007).                       %
+     %   K. Berland et al., Rep. Prog. Phys. 78, 066501 (2015).             %
+     %   D.C. Langreth et al., J. Phys.: Condens. Matter 21, 084203 (2009). %
+     %                                                                      %
+     % If you are calculating stress with vdW-DF, please also cite:         %
+     %                                                                      %
+     %   R. Sabatini et al., J. Phys.: Condens. Matter 24, 424209 (2012).   %
+     %                                                                      %
+     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     %                                                                      %
+     %  vdW-DF NEWS:                                                        %
+     %                                                                      %
+     %  * vdW-DF3 is now available. DOI: 10.1021/acs.jctc.0c00471           %
+     %    use with input_dft = 'vdW-DF3-opt1' or 'vdW-DF3-opt2'             %
+     %                                                                      %
+     %  * Unscreened and range-separated hybrid vdW-DF-cx functionals       %
+     %    DOI: 10.1063/1.4986522 and 10.1088/1361-648X/ac2ad2               %
+     %    use with input_dft = 'vdW-DF-cx0'    and 'vdW-DF-ahcx'            %
+     %  * Unscreened and range-separated hybrid vdW-DF2-b86r functionals    %
+     %    DOI: 10.1063/1.4986522 and DOI: 10.1103/PhysRevX.12.041003        %
+     %    use with input_dft = 'vdW-DF2-br0' and 'vdW-DF2-ahbr'             %
+     %                                                                      %
+     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+     Starting wfcs are   36 randomized atomic wfcs
+     Checking if some PAW data can be deallocated... 
+
+     total cpu time spent up to now is      102.4 secs
+
+     Self-consistent Calculation
+
+     iteration #  1     ecut=    80.00 Ry     beta= 0.30
+     Davidson diagonalization with overlap
+     ethr =  1.00E-02,  avg # of iterations =  2.2
+
+     Threshold (ethr) on eigenvalues was too large:
+     Diagonalizing with lowered threshold
+
+     Davidson diagonalization with overlap
+     ethr =  2.73E-04,  avg # of iterations =  4.0
+
+     negative rho (up, down):  9.187E-05 0.000E+00
+
+     total cpu time spent up to now is      455.8 secs
+
+     total energy              =    -989.21848323 Ry
+     estimated scf accuracy    <       0.22742452 Ry
+
+     iteration #  2     ecut=    80.00 Ry     beta= 0.30
+     Davidson diagonalization with overlap
+     ethr =  4.37E-04,  avg # of iterations =  1.0
+
+     negative rho (up, down):  9.813E-05 0.000E+00
+
+     total cpu time spent up to now is      588.8 secs
+
+     total energy              =    -989.14563284 Ry
+     estimated scf accuracy    <       0.16377424 Ry
+
+     iteration #  3     ecut=    80.00 Ry     beta= 0.30
+     Davidson diagonalization with overlap
+     ethr =  3.15E-04,  avg # of iterations =  2.0
+
+     negative rho (up, down):  1.910E-05 0.000E+00
+
+     total cpu time spent up to now is      756.3 secs
+
+     total energy              =    -989.17787365 Ry
+     estimated scf accuracy    <       0.01533820 Ry
+
+     iteration #  4     ecut=    80.00 Ry     beta= 0.30
+     Davidson diagonalization with overlap
+     ethr =  2.95E-05,  avg # of iterations =  2.3
+
+     negative rho (up, down):  6.211E-06 0.000E+00
+
+     total cpu time spent up to now is      929.5 secs
+
+     total energy              =    -989.17821106 Ry
+     estimated scf accuracy    <       0.00848547 Ry
+
+     iteration #  5     ecut=    80.00 Ry     beta= 0.30
+     Davidson diagonalization with overlap
+     ethr =  1.63E-05,  avg # of iterations =  3.4
+
+     negative rho (up, down):  2.380E-06 0.000E+00
+
+     total cpu time spent up to now is     1084.4 secs
+
+     total energy              =    -989.17855118 Ry
+     estimated scf accuracy    <       0.00296808 Ry
+
+     iteration #  6     ecut=    80.00 Ry     beta= 0.30
+     Davidson diagonalization with overlap
+     ethr =  5.71E-06,  avg # of iterations =  3.7
+
+     negative rho (up, down):  5.502E-07 0.000E+00
+
+     total cpu time spent up to now is     1230.3 secs
+
+     total energy              =    -989.17826361 Ry
+     estimated scf accuracy    <       0.00262646 Ry
+
+     iteration #  7     ecut=    80.00 Ry     beta= 0.30
+     Davidson diagonalization with overlap
+     ethr =  5.05E-06,  avg # of iterations =  1.5
+
+     negative rho (up, down):  3.358E-07 0.000E+00
+
+     total cpu time spent up to now is     1369.7 secs
+
+     total energy              =    -989.17792222 Ry
+     estimated scf accuracy    <       0.00250539 Ry
+
+     iteration #  8     ecut=    80.00 Ry     beta= 0.30
+     Davidson diagonalization with overlap
+     ethr =  4.82E-06,  avg # of iterations =  3.5
+
+     negative rho (up, down):  4.965E-04 0.000E+00
+
+     total cpu time spent up to now is     1543.2 secs
+
+     total energy              =    -989.17735924 Ry
+     estimated scf accuracy    <       0.00409461 Ry
+
+     iteration #  9     ecut=    80.00 Ry     beta= 0.30
+     Davidson diagonalization with overlap
+     ethr =  4.82E-06,  avg # of iterations =  2.7
+
+     negative rho (up, down):  1.718E-03 0.000E+00
+
+     total cpu time spent up to now is     1709.8 secs
+
+     total energy              =    -989.17787793 Ry
+     estimated scf accuracy    <       0.00062718 Ry
+
+     iteration # 10     ecut=    80.00 Ry     beta= 0.30
+     Davidson diagonalization with overlap
+     ethr =  1.21E-06,  avg # of iterations =  3.9
+
+     negative rho (up, down):  4.360E-03 0.000E+00
+
+     total cpu time spent up to now is     1861.7 secs
+
+     total energy              =    -989.17787556 Ry
+     estimated scf accuracy    <       0.00049015 Ry
+
+     iteration # 11     ecut=    80.00 Ry     beta= 0.30
+     Davidson diagonalization with overlap
+     ethr =  9.43E-07,  avg # of iterations =  2.2
+
+     negative rho (up, down):  4.993E-03 0.000E+00
+
+     total cpu time spent up to now is     2030.1 secs
+
+     total energy              =    -989.17787653 Ry
+     estimated scf accuracy    <       0.00054775 Ry
+
+     iteration # 12     ecut=    80.00 Ry     beta= 0.30
+     Davidson diagonalization with overlap
+     ethr =  9.43E-07,  avg # of iterations =  3.1
+
+     negative rho (up, down):  5.682E-03 0.000E+00
+
+     total cpu time spent up to now is     2196.3 secs
+
+     total energy              =    -989.17772810 Ry
+     estimated scf accuracy    <       0.00080832 Ry
+
+     iteration # 13     ecut=    80.00 Ry     beta= 0.30
+     Davidson diagonalization with overlap
+     ethr =  9.43E-07,  avg # of iterations =  2.4
+
+     negative rho (up, down):  6.199E-03 0.000E+00
+
+     total cpu time spent up to now is     2360.1 secs
+
+     total energy              =    -989.17778482 Ry
+     estimated scf accuracy    <       0.00027427 Ry
+
+     iteration # 14     ecut=    80.00 Ry     beta= 0.30
+     Davidson diagonalization with overlap
+     ethr =  5.27E-07,  avg # of iterations =  2.4
+
+     negative rho (up, down):  5.161E-03 0.000E+00
+
+     total cpu time spent up to now is     2509.0 secs
+
+     total energy              =    -989.17781716 Ry
+     estimated scf accuracy    <       0.00022098 Ry
+
+     iteration # 15     ecut=    80.00 Ry     beta= 0.30
+     Davidson diagonalization with overlap
+     ethr =  4.25E-07,  avg # of iterations =  1.2
+
+     negative rho (up, down):  4.584E-03 0.000E+00
+
+     total cpu time spent up to now is     2644.1 secs
+
+     total energy              =    -989.17777321 Ry
+     estimated scf accuracy    <       0.00014355 Ry
+
+     iteration # 16     ecut=    80.00 Ry     beta= 0.30
+     Davidson diagonalization with overlap
+     ethr =  2.76E-07,  avg # of iterations =  1.0
+
+     negative rho (up, down):  3.998E-03 0.000E+00
+
+     total cpu time spent up to now is     2777.8 secs
+
+     total energy              =    -989.17775215 Ry
+     estimated scf accuracy    <       0.00012173 Ry
+
+     iteration # 17     ecut=    80.00 Ry     beta= 0.30
+     Davidson diagonalization with overlap
+     ethr =  2.34E-07,  avg # of iterations =  2.1
+
+     negative rho (up, down):  3.737E-03 0.000E+00
+
+     total cpu time spent up to now is     2939.4 secs
+
+     total energy              =    -989.17776552 Ry
+     estimated scf accuracy    <       0.00006402 Ry
+
+     iteration # 18     ecut=    80.00 Ry     beta= 0.30
+     Davidson diagonalization with overlap
+     ethr =  1.23E-07,  avg # of iterations =  2.0
+
+     negative rho (up, down):  2.803E-03 0.000E+00
+
+     total cpu time spent up to now is     3080.7 secs
+
+     total energy              =    -989.17780315 Ry
+     estimated scf accuracy    <       0.00006337 Ry
+
+     iteration # 19     ecut=    80.00 Ry     beta= 0.30
+     Davidson diagonalization with overlap
+     ethr =  1.22E-07,  avg # of iterations =  1.9
+
+     negative rho (up, down):  1.797E-03 0.000E+00
+
+     total cpu time spent up to now is     3223.6 secs
+
+     total energy              =    -989.17783723 Ry
+     estimated scf accuracy    <       0.00002416 Ry
+
+     iteration # 20     ecut=    80.00 Ry     beta= 0.30
+     Davidson diagonalization with overlap
+     ethr =  4.65E-08,  avg # of iterations =  3.7
+
+     negative rho (up, down):  1.193E-03 0.000E+00
+
+     total cpu time spent up to now is     3382.0 secs
+
+     total energy              =    -989.17784118 Ry
+     estimated scf accuracy    <       0.00001607 Ry
+
+     iteration # 21     ecut=    80.00 Ry     beta= 0.30
+     Davidson diagonalization with overlap
+     ethr =  3.09E-08,  avg # of iterations =  4.6
+
+     negative rho (up, down):  7.169E-04 0.000E+00
+
+     total cpu time spent up to now is     3556.8 secs
+
+     total energy              =    -989.17784396 Ry
+     estimated scf accuracy    <       0.00004644 Ry
+
+     iteration # 22     ecut=    80.00 Ry     beta= 0.30
+     Davidson diagonalization with overlap
+     ethr =  3.09E-08,  avg # of iterations =  3.5
+
+     negative rho (up, down):  6.199E-04 0.000E+00
+
+     total cpu time spent up to now is     3726.1 secs
+
+     total energy              =    -989.17785012 Ry
+     estimated scf accuracy    <       0.00000237 Ry
+
+     iteration # 23     ecut=    80.00 Ry     beta= 0.30
+     Davidson diagonalization with overlap
+     ethr =  4.55E-09,  avg # of iterations =  2.0
+
+     negative rho (up, down):  5.707E-04 0.000E+00
+
+     total cpu time spent up to now is     3871.5 secs
+
+     total energy              =    -989.17785089 Ry
+     estimated scf accuracy    <       0.00000298 Ry
+
+     iteration # 24     ecut=    80.00 Ry     beta= 0.30
+     Davidson diagonalization with overlap
+     ethr =  4.55E-09,  avg # of iterations =  1.1
+
+     negative rho (up, down):  5.397E-04 0.000E+00
+
+     total cpu time spent up to now is     4005.5 secs
+
+     total energy              =    -989.17785082 Ry
+     estimated scf accuracy    <       0.00000269 Ry
+
+     iteration # 25     ecut=    80.00 Ry     beta= 0.30
+     Davidson diagonalization with overlap
+     ethr =  4.55E-09,  avg # of iterations =  3.2
+
+     negative rho (up, down):  3.632E-04 0.000E+00
+
+     total cpu time spent up to now is     4169.5 secs
+
+     total energy              =    -989.17785288 Ry
+     estimated scf accuracy    <       0.00000220 Ry
+
+     iteration # 26     ecut=    80.00 Ry     beta= 0.30
+     Davidson diagonalization with overlap
+     ethr =  4.23E-09,  avg # of iterations =  2.3
+
+     negative rho (up, down):  3.429E-04 0.000E+00
+
+     total cpu time spent up to now is     4329.4 secs
+
+     total energy              =    -989.17785352 Ry
+     estimated scf accuracy    <       0.00000121 Ry
+
+     iteration # 27     ecut=    80.00 Ry     beta= 0.30
+     Davidson diagonalization with overlap
+     ethr =  2.33E-09,  avg # of iterations =  3.2
+
+     negative rho (up, down):  2.560E-04 0.000E+00
+
+     total cpu time spent up to now is     4478.5 secs
+
+     total energy              =    -989.17785254 Ry
+     estimated scf accuracy    <       0.00000202 Ry
+
+     iteration # 28     ecut=    80.00 Ry     beta= 0.30
+     Davidson diagonalization with overlap
+     ethr =  2.33E-09,  avg # of iterations =  1.4
+
+     negative rho (up, down):  2.531E-04 0.000E+00
+
+     total cpu time spent up to now is     4616.9 secs
+
+     total energy              =    -989.17785191 Ry
+     estimated scf accuracy    <       0.00000126 Ry
+
+     iteration # 29     ecut=    80.00 Ry     beta= 0.30
+     Davidson diagonalization with overlap
+     ethr =  2.33E-09,  avg # of iterations =  2.1
+
+     negative rho (up, down):  2.343E-04 0.000E+00
+
+     total cpu time spent up to now is     4764.5 secs
+
+     total energy              =    -989.17785233 Ry
+     estimated scf accuracy    <       0.00000035 Ry
+
+     iteration # 30     ecut=    80.00 Ry     beta= 0.30
+     Davidson diagonalization with overlap
+     ethr =  6.68E-10,  avg # of iterations =  3.3
+
+     negative rho (up, down):  2.288E-04 0.000E+00
+
+     total cpu time spent up to now is     4924.0 secs
+
+     total energy              =    -989.17785182 Ry
+     estimated scf accuracy    <       0.00000020 Ry
+
+     iteration # 31     ecut=    80.00 Ry     beta= 0.30
+     Davidson diagonalization with overlap
+     ethr =  3.94E-10,  avg # of iterations =  2.0
+
+     negative rho (up, down):  2.123E-04 0.000E+00
+
+     total cpu time spent up to now is     5075.5 secs
+
+     total energy              =    -989.17785183 Ry
+     estimated scf accuracy    <       0.00000018 Ry
+
+     iteration # 32     ecut=    80.00 Ry     beta= 0.30
+     Davidson diagonalization with overlap
+     ethr =  3.45E-10,  avg # of iterations =  2.3
+
+     negative rho (up, down):  2.157E-04 0.000E+00
+
+     total cpu time spent up to now is     5228.1 secs
+
+     total energy              =    -989.17785230 Ry
+     estimated scf accuracy    <       0.00000006 Ry
+
+     iteration # 33     ecut=    80.00 Ry     beta= 0.30
+     Davidson diagonalization with overlap
+     ethr =  1.23E-10,  avg # of iterations =  2.4
+
+     negative rho (up, down):  2.180E-04 0.000E+00
+
+     total cpu time spent up to now is     5397.0 secs
+
+     total energy              =    -989.17785202 Ry
+     estimated scf accuracy    <       0.00000003 Ry
+
+     iteration # 34     ecut=    80.00 Ry     beta= 0.30
+     Davidson diagonalization with overlap
+     ethr =  4.82E-11,  avg # of iterations =  2.2
+
+     negative rho (up, down):  2.213E-04 0.000E+00
+
+     total cpu time spent up to now is     5555.6 secs
+
+     End of self-consistent calculation
+
+          k = 0.0000 0.0000 0.0000 ( 35507 PWs)   bands (ev):
+
+   -62.9297 -62.8840 -37.1036 -37.0585 -36.8662 -36.8661 -36.8217 -36.8216
+   -16.2589 -16.1318 -15.0069 -14.8115  -7.9841  -7.5026  -4.6509  -4.6505
+    -4.6172  -4.6169  -4.4608  -3.5376  -3.5359  -3.4992  -3.4980  -3.4588
+    -2.3759  -1.7181   0.6898   0.7038   0.7538   0.7602   0.9059
+
+          k = 0.0000 0.0722 0.0000 ( 35493 PWs)   bands (ev):
+
+   -62.9281 -62.8825 -37.1006 -37.0554 -36.8818 -36.8696 -36.8372 -36.8252
+   -16.1993 -16.0726 -14.9800 -14.7879  -7.9154  -7.4345  -4.7862  -4.7520
+    -4.6233  -4.5883  -4.5547  -3.9591  -3.6332  -3.5954  -3.4263  -3.1286
+    -2.3805  -1.7825   0.6176   0.6706   0.7551   0.7954   0.8072
+
+          k = 0.0000 0.1443 0.0000 ( 35435 PWs)   bands (ev):
+
+   -62.9237 -62.8781 -37.0919 -37.0467 -36.9258 -36.8813 -36.8796 -36.8353
+   -16.0256 -15.9003 -14.9016 -14.7193  -7.7249  -7.2480  -5.1359  -5.1016
+    -4.9709  -4.4702  -4.4092  -4.3745  -3.8847  -3.8445  -3.3377  -2.9597
+    -2.4287  -2.0064   0.3524   0.4581   0.5206   0.6241   0.6495
+
+          k = 0.0000 0.2165 0.0000 ( 35345 PWs)   bands (ev):
+
+   -62.9170 -62.8714 -37.0789 -37.0337 -36.9912 -36.9468 -36.8946 -36.8503
+   -15.7526 -15.6306 -14.7787 -14.6125  -7.4700  -7.0151  -5.5665  -5.5352
+    -5.3723  -5.0004  -4.2111  -4.1693  -4.1338  -4.0982  -3.4013  -3.0322
+    -2.5954  -2.3916  -0.0083   0.2759   0.4279   0.5288   0.5371
+
+          k = 0.0000 0.2887 0.0000 ( 35323 PWs)   bands (ev):
+
+   -62.9092 -62.8635 -37.0674 -37.0636 -37.0232 -37.0183 -36.9122 -36.8679
+   -15.4060 -15.2905 -14.6236 -14.4793  -7.2871  -6.9255  -5.9424  -5.8673
+    -5.7525  -5.5208  -4.5394  -4.4944  -3.8114  -3.7677  -3.5991  -3.2711
+    -2.8803  -2.7989  -0.1292   0.2376   0.2505   0.3372   0.7719
+
+          k = 0.0000 0.3608 0.0000 ( 35299 PWs)   bands (ev):
+
+   -62.9013 -62.8557 -37.1428 -37.0986 -37.0482 -37.0029 -36.9298 -36.8855
+   -15.0242 -14.9204 -14.4551 -14.3377  -7.3533  -7.1502  -6.2976  -6.1138
+    -5.9645  -5.8396  -4.8278  -4.7812  -3.8228  -3.5444  -3.4914  -3.4359
+    -3.0995  -3.0253  -0.0146   0.1305   0.2174   0.3535   1.1148
+
+          k = 0.0000 0.4330 0.0000 ( 35224 PWs)   bands (ev):
+
+   -62.8946 -62.8490 -37.2060 -37.1619 -37.0351 -36.9898 -36.9446 -36.9003
+   -14.6615 -14.5762 -14.2986 -14.2114  -7.6018  -7.4937  -6.6425  -6.5083
+    -6.0483  -5.9328  -5.0486  -5.0010  -3.9890  -3.7620  -3.2352  -3.1633
+    -3.0763  -2.9723   0.1210   0.1886   0.2340   0.5194   1.4371
+
+          k = 0.0000 0.5052 0.0000 ( 35152 PWs)   bands (ev):
+
+   -62.8902 -62.8445 -37.2479 -37.2039 -37.0264 -36.9811 -36.9545 -36.9102
+   -14.3886 -14.3274 -14.1847 -14.1257  -7.8321  -7.7643  -6.8843  -6.7914
+    -6.1462  -6.0442  -5.1863  -5.1380  -4.0746  -3.8980  -3.0789  -2.9922
+    -2.8824  -2.7871   0.1678   0.2198   0.5099   0.6798   1.6464
+
+          k = 0.0000-0.5774 0.0000 ( 35026 PWs)   bands (ev):
+
+   -62.8886 -62.8429 -37.2626 -37.2185 -37.0233 -36.9780 -36.9579 -36.9137
+   -14.2827 -14.2368 -14.1433 -14.0964  -7.9231  -7.8658  -6.9706  -6.8927
+    -6.1942  -6.0953  -5.2330  -5.1846  -4.0978  -3.9458  -3.0280  -2.9353
+    -2.7599  -2.7066   0.1961   0.2431   0.6607   0.7357   1.7136
+
+          k = 0.0625 0.1083 0.0000 ( 35467 PWs)   bands (ev):
+
+   -62.9251 -62.8795 -37.0947 -37.0496 -36.9111 -36.8769 -36.8666 -36.8325
+   -16.0827 -15.9568 -14.9274 -14.7417  -7.7854  -7.3063  -5.0264  -4.9919
+    -4.8622  -4.4695  -4.4356  -4.3105  -3.8484  -3.8100  -3.3157  -2.9522
+    -2.4065  -1.9221   0.4646   0.4905   0.5429   0.6197   0.7121
+
+          k = 0.0625 0.1804 0.0000 ( 35370 PWs)   bands (ev):
+
+   -62.9196 -62.8739 -37.0839 -37.0387 -36.9646 -36.9201 -36.8906 -36.8462
+   -15.8592 -15.7356 -14.8266 -14.6538  -7.5582  -7.0896  -5.4093  -5.3757
+    -5.1983  -4.7577  -4.2538  -4.2258  -4.2060  -4.1745  -3.2470  -2.8935
+    -2.5132  -2.2301   0.0896   0.3033   0.4250   0.4984   0.5606
+
+          k = 0.0625 0.2526 0.0000 ( 35362 PWs)   bands (ev):
+
+   -62.9123 -62.8667 -37.0697 -37.0338 -37.0245 -36.9894 -36.9085 -36.8642
+   -15.5489 -15.4301 -14.6870 -14.5331  -7.3245  -6.9063  -5.7889  -5.7524
+    -5.5678  -5.2603  -4.5933  -4.5412  -3.9858  -3.9452  -3.3361  -3.0362
+    -2.7430  -2.6343  -0.1579   0.1512   0.3457   0.4094   0.5486
+
+          k = 0.0625 0.3248 0.0000 ( 35310 PWs)   bands (ev):
+
+   -62.9045 -62.8588 -37.1078 -37.0635 -37.0544 -37.0091 -36.9279 -36.8836
+   -15.1832 -15.0734 -14.5238 -14.3942  -7.2607  -6.9855  -6.1051  -5.9592
+    -5.8716  -5.7370  -4.8974  -4.8231  -3.7516  -3.7034  -3.5427  -3.3053
+    -2.9753  -2.9218  -0.1940   0.0875   0.2841   0.3858   0.8276
+
+          k = 0.0625 0.3969 0.0000 ( 35243 PWs)   bands (ev):
+
+   -62.8972 -62.8515 -37.1754 -37.1313 -37.0401 -36.9949 -36.9457 -36.9014
+   -14.8078 -14.7131 -14.3590 -14.2580  -7.4393  -7.2919  -6.4780  -6.3371
+    -5.9828  -5.8618  -5.0954  -5.0189  -3.7907  -3.6218  -3.5937  -3.5233
+    -2.9676  -2.9196  -0.0750   0.1240   0.3244   0.4701   1.1762
+
+          k = 0.0625 0.4691 0.0000 ( 35169 PWs)   bands (ev):
+
+   -62.8916 -62.8460 -37.2267 -37.1826 -37.0292 -36.9839 -36.9593 -36.9150
+   -14.4852 -14.4123 -14.2207 -14.1496  -7.6842  -7.5989  -6.8010  -6.7062
+    -6.0720  -5.9668  -5.2039  -5.1420  -3.9670  -3.8098  -3.4853  -3.3968
+    -2.7922  -2.7384   0.0952   0.2025   0.4668   0.6161   1.4969
+
+          k = 0.0625 0.5413 0.0000 ( 35128 PWs)   bands (ev):
+
+   -62.8886 -62.8429 -37.2543 -37.2103 -37.0233 -36.9780 -36.9666 -36.9224
+   -14.2896 -14.2398 -14.1407 -14.0914  -7.8437  -7.7834  -6.9824  -6.9097
+    -6.1601  -6.0608  -5.2478  -5.2019  -4.0610  -3.9244  -3.3929  -3.2947
+    -2.6312  -2.5782   0.1950   0.2417   0.6512   0.7460   1.7340
+
+          k = 0.1250 0.2165 0.0000 ( 35331 PWs)   bands (ev):
+
+   -62.9134 -62.8678 -37.0719 -37.0267 -37.0197 -36.9754 -36.9094 -36.8650
+   -15.5982 -15.4780 -14.7089 -14.5512  -7.3405  -6.9035  -5.7289  -5.6919
+    -5.4454  -5.0762  -4.7306  -4.6856  -4.0651  -4.0262  -3.1713  -2.8791
+    -2.6869  -2.5516  -0.1777   0.1084   0.3534   0.3805   0.4470
+
+          k = 0.1250 0.2887 0.0000 ( 35357 PWs)   bands (ev):
+
+   -62.9062 -62.8605 -37.0830 -37.0577 -37.0388 -37.0125 -36.9327 -36.8884
+   -15.2671 -15.1541 -14.5597 -14.4231  -7.2021  -6.8711  -5.9675  -5.8729
+    -5.7305  -5.5495  -5.1607  -5.0215  -3.9623  -3.9136  -3.2400  -3.0354
+    -2.8836  -2.8405  -0.3275  -0.0148   0.3425   0.4030   0.5522
+
+          k = 0.1250 0.3608 0.0000 ( 35341 PWs)   bands (ev):
+
+   -62.8989 -62.8533 -37.1453 -37.1011 -37.0435 -36.9982 -36.9563 -36.9121
+   -14.9040 -14.8032 -14.3971 -14.2862  -7.2755  -7.0808  -6.2856  -6.1769
+    -5.8997  -5.7856  -5.3421  -5.1545  -4.0204  -3.9597  -3.4519  -3.3251
+    -2.9193  -2.8723  -0.2891   0.0469   0.4123   0.4827   0.8161
+
+          k = 0.1250 0.4330 0.0000 ( 35215 PWs)   bands (ev):
+
+   -62.8927 -62.8471 -37.1974 -37.1533 -37.0314 -36.9861 -36.9765 -36.9323
+   -14.5614 -14.4792 -14.2454 -14.1633  -7.4693  -7.3527  -6.7076  -6.6398
+    -5.9436  -5.8400  -5.3688  -5.2060  -4.0741  -3.9781  -3.7140  -3.6267
+    -2.7776  -2.7327  -0.0881   0.2189   0.5210   0.5780   1.1304
+
+          k = 0.1250 0.5052 0.0000 ( 35141 PWs)   bands (ev):
+
+   -62.8886 -62.8429 -37.2320 -37.1879 -37.0233 -36.9900 -36.9780 -36.9458
+   -14.3057 -14.2472 -14.1348 -14.0793  -7.6351  -7.5608  -7.0062  -6.9508
+    -6.0574  -5.9601  -5.3237  -5.2175  -4.0574  -3.9613  -3.8918  -3.8419
+    -2.5842  -2.5353   0.1058   0.2473   0.6774   0.7732   1.4019
+
+          k = 0.1250 0.5774 0.0000 ( 35180 PWs)   bands (ev):
+
+   -62.8872 -62.8415 -37.2440 -37.2000 -37.0205 -36.9947 -36.9752 -36.9505
+   -14.2067 -14.1631 -14.0951 -14.0503  -7.6976  -7.6394  -7.1124  -7.0594
+    -6.1187  -6.0207  -5.2787  -5.2280  -4.0793  -3.9866  -3.9469  -3.8617
+    -2.4876  -2.4334   0.1658   0.2063   0.8028   0.8747   1.5238
+
+          k = 0.1875 0.3248 0.0000 ( 35337 PWs)   bands (ev):
+
+   -62.8995 -62.8539 -37.1317 -37.0875 -37.0447 -36.9994 -36.9631 -36.9188
+   -14.9380 -14.8342 -14.4105 -14.2950  -7.2044  -6.9861  -6.1628  -6.0903
+    -5.8772  -5.7528  -5.4868  -5.2328  -4.1940  -4.1338  -3.3188  -3.1843
+    -2.9139  -2.8549  -0.3694   0.0067   0.4377   0.4776   0.6660
+
+          k = 0.1875 0.3969 0.0000 ( 35241 PWs)   bands (ev):
+
+   -62.8933 -62.8477 -37.1736 -37.1295 -37.0326 -36.9939 -36.9873 -36.9497
+   -14.6038 -14.5157 -14.2581 -14.1686  -7.3046  -7.1561  -6.6273  -6.5928
+    -5.8269  -5.7110  -5.4925  -5.2587  -4.5099  -4.4354  -3.5429  -3.4663
+    -2.8097  -2.7466  -0.2120   0.2113   0.5442   0.5881   0.8584
+
+          k = 0.1875 0.4691 0.0000 ( 35167 PWs)   bands (ev):
+
+   -62.8886 -62.8429 -37.2041 -37.1600 -37.0234 -37.0189 -36.9780 -36.9747
+   -14.3213 -14.2546 -14.1294 -14.0668  -7.3964  -7.2907  -7.0255  -6.9893
+    -5.8800  -5.8003  -5.4134  -5.2194  -4.6901  -4.5587  -3.8315  -3.7565
+    -2.6060  -2.5561  -0.0174   0.2285   0.7147   0.8117   1.0553
+
+          k = 0.1875 0.5413 0.0000 ( 35162 PWs)   bands (ev):
+
+   -62.8860 -62.8404 -37.2201 -37.1760 -37.0328 -37.0183 -36.9886 -36.9730
+   -14.1523 -14.1073 -14.0557 -14.0113  -7.4348  -7.3641  -7.2429  -7.2006
+    -6.0270  -5.9313  -5.2831  -5.1792  -4.7294  -4.5708  -4.0299  -3.9657
+    -2.4167  -2.3651   0.0202   0.0909   0.9273   1.0485   1.1660
+
+          k = 0.2500 0.4330 0.0000 ( 35195 PWs)   bands (ev):
+
+   -62.8886 -62.8429 -37.1896 -37.1455 -37.0338 -37.0234 -36.9896 -36.9780
+   -14.3291 -14.2570 -14.1279 -14.0602  -7.2871  -7.1589  -7.0313  -7.0015
+    -5.7546  -5.6582  -5.4204  -5.2017  -5.0132  -4.9538  -3.8038  -3.6918
+    -2.6243  -2.5691  -0.0701   0.2134   0.7231   0.8249   0.9375
+
+          k = 0.2500 0.5052 0.0000 ( 35193 PWs)   bands (ev):
+
+   -62.8855 -62.8398 -37.1943 -37.1502 -37.0663 -37.0222 -37.0172 -36.9718
+   -14.1285 -14.0781 -14.0320 -13.9859  -7.3337  -7.3001  -7.1738  -7.0828
+    -5.8622  -5.7874  -5.3595  -5.2718  -5.1693  -5.0882  -4.0725  -3.9559
+    -2.3817  -2.3337  -0.1091  -0.0104   0.8826   0.9620   1.1245
+
+          k = 0.2500 0.5774 0.0000 ( 35190 PWs)   bands (ev):
+
+   -62.8843 -62.8387 -37.1942 -37.1501 -37.0796 -37.0354 -37.0150 -36.9697
+   -14.0514 -14.0133 -14.0006 -13.9589  -7.4340  -7.4019  -7.0893  -7.0380
+    -6.0188  -5.9305  -5.3942  -5.2342  -5.1059  -5.0663  -4.1927  -4.0932
+    -2.2532  -2.2038  -0.1879  -0.1469   0.9069   0.9842   1.2973
+
+          k = 0.3125 0.5413 0.0000 ( 35172 PWs)   bands (ev):
+
+   -62.8837 -62.8381 -37.1731 -37.1290 -37.1080 -37.0639 -37.0138 -36.9685
+   -14.0218 -13.9860 -13.9717 -13.9372  -7.5039  -7.4697  -6.8659  -6.7856
+    -6.0658  -6.0320  -5.6143  -5.5389  -5.0705  -4.9765  -4.2914  -4.1544
+    -2.1744  -2.1249  -0.3046  -0.2618   0.8389   0.8914   1.3890
+
+          k =-0.0625 0.0361 0.0000 ( 35493 PWs)   bands (ev):
+
+   -62.9281 -62.8825 -37.1006 -37.0554 -36.8817 -36.8697 -36.8373 -36.8252
+   -16.1994 -16.0726 -14.9801 -14.7878  -7.9155  -7.4343  -4.7860  -4.7521
+    -4.6229  -4.5884  -4.5545  -3.9585  -3.6342  -3.5946  -3.4324  -3.1241
+    -2.3808  -1.7786   0.6199   0.6680   0.7467   0.7777   0.8127
+
+          k =-0.1250 0.0722 0.0000 ( 35435 PWs)   bands (ev):
+
+   -62.9237 -62.8781 -37.0919 -37.0467 -36.9257 -36.8814 -36.8798 -36.8352
+   -16.0258 -15.9001 -14.9019 -14.7190  -7.7254  -7.2476  -5.1362  -5.1012
+    -4.9700  -4.4696  -4.4095  -4.3743  -3.8853  -3.8440  -3.3524  -2.9498
+    -2.4304  -1.9911   0.3316   0.4557   0.5140   0.6384   0.6484
+
+          k =-0.1875 0.1083 0.0000 ( 35345 PWs)   bands (ev):
+
+   -62.9170 -62.8714 -37.0789 -37.0337 -36.9911 -36.9468 -36.8947 -36.8502
+   -15.7533 -15.6301 -14.7795 -14.6116  -7.4707  -7.0146  -5.5718  -5.5297
+    -5.3721  -4.9985  -4.2117  -4.1692  -4.1339  -4.0979  -3.4295  -3.0131
+    -2.6010  -2.3632  -0.0265   0.2765   0.4257   0.5253   0.5355
+
+          k =-0.2500 0.1443 0.0000 ( 35323 PWs)   bands (ev):
+
+   -62.9092 -62.8635 -37.0673 -37.0636 -37.0232 -37.0183 -36.9124 -36.8679
+   -15.4075 -15.2896 -14.6251 -14.4774  -7.2868  -6.9254  -5.9592  -5.8515
+    -5.7543  -5.5156  -4.5395  -4.4944  -3.8118  -3.7677  -3.6420  -3.2377
+    -2.8908  -2.7651  -0.1422   0.2373   0.2497   0.3371   0.7647
+
+          k =-0.3125 0.1804 0.0000 ( 35299 PWs)   bands (ev):
+
+   -62.9013 -62.8557 -37.1427 -37.0987 -37.0482 -37.0029 -36.9299 -36.8854
+   -15.0272 -14.9186 -14.4578 -14.3342  -7.3528  -7.1475  -6.3096  -6.1008
+    -5.9945  -5.8106  -4.8277  -4.7814  -3.8798  -3.4970  -3.4883  -3.4352
+    -3.1097  -2.9969  -0.0240   0.1311   0.2166   0.3518   1.1015
+
+          k =-0.3750 0.2165 0.0000 ( 35224 PWs)   bands (ev):
+
+   -62.8946 -62.8490 -37.2059 -37.1620 -37.0351 -36.9898 -36.9447 -36.9003
+   -14.6675 -14.5728 -14.3027 -14.2049  -7.6055  -7.4853  -6.6579  -6.4895
+    -6.0967  -5.8890  -5.0484  -5.0012  -4.0606  -3.6936  -3.2348  -3.1643
+    -3.0832  -2.9480   0.1215   0.1878   0.2263   0.5182   1.4075
+
+          k =-0.4375 0.2526 0.0000 ( 35152 PWs)   bands (ev):
+
+   -62.8902 -62.8445 -37.2478 -37.2039 -37.0264 -36.9811 -36.9546 -36.9102
+   -14.4004 -14.3217 -14.1899 -14.1149  -7.8417  -7.7496  -6.9059  -6.7664
+    -6.1978  -5.9979  -5.1860  -5.1384  -4.1622  -3.8133  -3.0783  -2.9938
+    -2.8939  -2.7559   0.1681   0.2195   0.5002   0.6839   1.5908
+
+          k = 0.5000-0.2887 0.0000 ( 35026 PWs)   bands (ev):
+
+   -62.8886 -62.8429 -37.2625 -37.2186 -37.0233 -36.9780 -36.9581 -36.9136
+   -14.2998 -14.2293 -14.1477 -14.0828  -7.9355  -7.8484  -6.9952  -6.8646
+    -6.2452  -6.0495  -5.2327  -5.1849  -4.1937  -3.8528  -3.0272  -2.9370
+    -2.7844  -2.6612   0.1962   0.2429   0.6420   0.7519   1.6441
+
+          k = 0.1250 0.0000 0.0000 ( 35467 PWs)   bands (ev):
+
+   -62.9251 -62.8795 -37.0947 -37.0496 -36.9110 -36.8770 -36.8667 -36.8324
+   -16.0829 -15.9567 -14.9277 -14.7415  -7.7858  -7.3060  -5.0258  -4.9925
+    -4.8610  -4.4699  -4.4354  -4.3111  -3.8493  -3.8097  -3.3235  -2.9465
+    -2.4076  -1.9117   0.4460   0.4891   0.5400   0.6344   0.7054
+
+          k =-0.1250 0.1443 0.0000 ( 35370 PWs)   bands (ev):
+
+   -62.9196 -62.8739 -37.0839 -37.0387 -36.9645 -36.9202 -36.8906 -36.8462
+   -15.8594 -15.7354 -14.8269 -14.6535  -7.5585  -7.0894  -5.4104  -5.3745
+    -5.1981  -4.7569  -4.2539  -4.2247  -4.2067  -4.1758  -3.2573  -2.8868
+    -2.5148  -2.2182   0.0796   0.3040   0.4250   0.4911   0.5698
+
+          k = 0.1875 0.0361 0.0000 ( 35370 PWs)   bands (ev):
+
+   -62.9196 -62.8739 -37.0839 -37.0387 -36.9644 -36.9202 -36.8907 -36.8462
+   -15.8597 -15.7352 -14.8272 -14.6531  -7.5589  -7.0890  -5.4096  -5.3753
+    -5.1969  -4.7579  -4.2544  -4.2271  -4.2049  -4.1754  -3.2650  -2.8819
+    -2.5166  -2.2058   0.0715   0.3017   0.4170   0.4984   0.5673
+
+          k =-0.1875 0.1804 0.0000 ( 35362 PWs)   bands (ev):
+
+   -62.9123 -62.8667 -37.0697 -37.0337 -37.0245 -36.9894 -36.9086 -36.8641
+   -15.5496 -15.4296 -14.6878 -14.5322  -7.3246  -6.9063  -5.7997  -5.7408
+    -5.5692  -5.2579  -4.5919  -4.5441  -3.9855  -3.9452  -3.3616  -3.0192
+    -2.7490  -2.6093  -0.1667   0.1497   0.3500   0.3999   0.5513
+
+          k = 0.2500 0.0722 0.0000 ( 35362 PWs)   bands (ev):
+
+   -62.9123 -62.8667 -37.0697 -37.0336 -37.0245 -36.9895 -36.9087 -36.8641
+   -15.5500 -15.4293 -14.6883 -14.5316  -7.3249  -6.9062  -5.8006  -5.7397
+    -5.5686  -5.2580  -4.5945  -4.5425  -3.9861  -3.9453  -3.3680  -3.0144
+    -2.7499  -2.6003  -0.1711   0.1489   0.3509   0.4032   0.5434
+
+          k =-0.2500 0.2165 0.0000 ( 35310 PWs)   bands (ev):
+
+   -62.9045 -62.8588 -37.1077 -37.0636 -37.0544 -37.0091 -36.9280 -36.8835
+   -15.1848 -15.0724 -14.5255 -14.3921  -7.2598  -6.9850  -6.1162  -5.9547
+    -5.8739  -5.7283  -4.8959  -4.8251  -3.7490  -3.7047  -3.5849  -3.2702
+    -2.9829  -2.8975  -0.1962   0.0823   0.2873   0.3788   0.8318
+
+          k = 0.3125 0.1083 0.0000 ( 35310 PWs)   bands (ev):
+
+   -62.9045 -62.8588 -37.1076 -37.0636 -37.0544 -37.0091 -36.9280 -36.8835
+   -15.1855 -15.0720 -14.5261 -14.3914  -7.2597  -6.9849  -6.1180  -5.9529
+    -5.8753  -5.7260  -4.8982  -4.8246  -3.7512  -3.7088  -3.5847  -3.2637
+    -2.9812  -2.8951  -0.2004   0.0836   0.2887   0.3796   0.8209
+
+          k =-0.3125 0.2526 0.0000 ( 35243 PWs)   bands (ev):
+
+   -62.8972 -62.8515 -37.1753 -37.1313 -37.0401 -36.9949 -36.9458 -36.9014
+   -14.8116 -14.7110 -14.3620 -14.2538  -7.4401  -7.2874  -6.4883  -6.3218
+    -6.0275  -5.8253  -5.0932  -5.0200  -3.8433  -3.6073  -3.5688  -3.5116
+    -2.9726  -2.9023  -0.0720   0.1200   0.3215   0.4664   1.1786
+
+          k = 0.3750 0.1443 0.0000 ( 35243 PWs)   bands (ev):
+
+   -62.8972 -62.8515 -37.1753 -37.1313 -37.0401 -36.9949 -36.9458 -36.9013
+   -14.8124 -14.7105 -14.3625 -14.2529  -7.4401  -7.2870  -6.4894  -6.3211
+    -6.0280  -5.8237  -5.0946  -5.0206  -3.8519  -3.6067  -3.5801  -3.4894
+    -2.9703  -2.9037  -0.0749   0.1188   0.3231   0.4676   1.1653
+
+          k =-0.3750 0.2887 0.0000 ( 35169 PWs)   bands (ev):
+
+   -62.8916 -62.8460 -37.2266 -37.1827 -37.0292 -36.9839 -36.9594 -36.9150
+   -14.4931 -14.4082 -14.2251 -14.1417  -7.6905  -7.5880  -6.8168  -6.6861
+    -6.1260  -5.9214  -5.2018  -5.1426  -4.0399  -3.7348  -3.4729  -3.4124
+    -2.7996  -2.7179   0.0982   0.2022   0.4605   0.6160   1.4900
+
+          k = 0.4375 0.1804 0.0000 ( 35169 PWs)   bands (ev):
+
+   -62.8916 -62.8460 -37.2266 -37.1827 -37.0292 -36.9839 -36.9594 -36.9150
+   -14.4940 -14.4078 -14.2255 -14.1409  -7.6905  -7.5876  -6.8176  -6.6855
+    -6.1260  -5.9209  -5.2020  -5.1435  -4.0448  -3.7347  -3.4830  -3.3944
+    -2.7962  -2.7216   0.0998   0.1976   0.4600   0.6180   1.4760
+
+          k =-0.4375 0.3248 0.0000 ( 35128 PWs)   bands (ev):
+
+   -62.8886 -62.8429 -37.2542 -37.2103 -37.0233 -36.9780 -36.9667 -36.9223
+   -14.3046 -14.2332 -14.1450 -14.0791  -7.8550  -7.7670  -7.0025  -6.8857
+    -6.2137  -6.0155  -5.2465  -5.2015  -4.1477  -3.8381  -3.3825  -3.3054
+    -2.6451  -2.5492   0.1960   0.2419   0.6388   0.7578   1.6959
+
+          k = 0.5000 0.2165 0.0000 ( 35128 PWs)   bands (ev):
+
+   -62.8886 -62.8429 -37.2542 -37.2103 -37.0233 -36.9780 -36.9668 -36.9223
+   -14.3050 -14.2330 -14.1451 -14.0787  -7.8551  -7.7669  -7.0028  -6.8855
+    -6.2136  -6.0154  -5.2463  -5.2021  -4.1494  -3.8378  -3.3878  -3.2978
+    -2.6428  -2.5516   0.1978   0.2395   0.6386   0.7580   1.6886
+
+          k = 0.2500 0.0000 0.0000 ( 35331 PWs)   bands (ev):
+
+   -62.9134 -62.8678 -37.0719 -37.0267 -37.0196 -36.9755 -36.9095 -36.8650
+   -15.5990 -15.4774 -14.7098 -14.5501  -7.3410  -6.9033  -5.7313  -5.6885
+    -5.4442  -5.0776  -4.7333  -4.6841  -4.0654  -4.0264  -3.1895  -2.8699
+    -2.6895  -2.5269  -0.1872   0.1070   0.3486   0.3859   0.4435
+
+          k =-0.1875 0.2526 0.0000 ( 35357 PWs)   bands (ev):
+
+   -62.9062 -62.8605 -37.0830 -37.0577 -37.0388 -37.0125 -36.9327 -36.8883
+   -15.2677 -15.1538 -14.5603 -14.4224  -7.2016  -6.8713  -5.9739  -5.8646
+    -5.7332  -5.5499  -5.1601  -5.0210  -3.9618  -3.9137  -3.2585  -3.0232
+    -2.8857  -2.8283  -0.3273  -0.0163   0.3428   0.3967   0.5577
+
+          k = 0.3125 0.0361 0.0000 ( 35357 PWs)   bands (ev):
+
+   -62.9062 -62.8605 -37.0829 -37.0577 -37.0389 -37.0125 -36.9328 -36.8883
+   -15.2689 -15.1530 -14.5614 -14.4209  -7.2012  -6.8717  -5.9793  -5.8556
+    -5.7363  -5.5491  -5.1646  -5.0187  -3.9608  -3.9161  -3.2716  -3.0137
+    -2.8791  -2.8208  -0.3329  -0.0152   0.3427   0.4001   0.5488
+
+          k =-0.2500 0.2887 0.0000 ( 35341 PWs)   bands (ev):
+
+   -62.8989 -62.8533 -37.1452 -37.1011 -37.0435 -36.9982 -36.9564 -36.9120
+   -14.9058 -14.8021 -14.3986 -14.2841  -7.2749  -7.0796  -6.2881  -6.1660
+    -5.9362  -5.7647  -5.3391  -5.1506  -4.0168  -3.9613  -3.4940  -3.2879
+    -2.9194  -2.8649  -0.2858   0.0461   0.4104   0.4764   0.8301
+
+          k = 0.3750 0.0722 0.0000 ( 35341 PWs)   bands (ev):
+
+   -62.8989 -62.8533 -37.1451 -37.1012 -37.0435 -36.9982 -36.9565 -36.9120
+   -14.9074 -14.8012 -14.3998 -14.2823  -7.2742  -7.0792  -6.2896  -6.1634
+    -5.9413  -5.7605  -5.3420  -5.1506  -4.0181  -3.9637  -3.4974  -3.2753
+    -2.9127  -2.8697  -0.2892   0.0458   0.4108   0.4799   0.8139
+
+          k =-0.3125 0.3248 0.0000 ( 35215 PWs)   bands (ev):
+
+   -62.8927 -62.8471 -37.1973 -37.1533 -37.0314 -36.9861 -36.9766 -36.9322
+   -14.5659 -14.4768 -14.2482 -14.1586  -7.4717  -7.3470  -6.7153  -6.6258
+    -6.0019  -5.7979  -5.3660  -5.1999  -4.0577  -3.9858  -3.7805  -3.5710
+    -2.7796  -2.7233  -0.0849   0.2223   0.5170   0.5749   1.1545
+
+          k = 0.4375 0.1083 0.0000 ( 35215 PWs)   bands (ev):
+
+   -62.8927 -62.8471 -37.1973 -37.1533 -37.0314 -36.9861 -36.9766 -36.9322
+   -14.5679 -14.4758 -14.2493 -14.1567  -7.4715  -7.3461  -6.7166  -6.6244
+    -6.0033  -5.7966  -5.3677  -5.2012  -4.0756  -3.9796  -3.7726  -3.5608
+    -2.7777  -2.7260  -0.0844   0.2171   0.5169   0.5785   1.1280
+
+          k =-0.3750 0.3608 0.0000 ( 35141 PWs)   bands (ev):
+
+   -62.8886 -62.8429 -37.2318 -37.1879 -37.0233 -36.9901 -36.9780 -36.9457
+   -14.3159 -14.2426 -14.1384 -14.0704  -7.6432  -7.5484  -7.0170  -6.9349
+    -6.1173  -5.9149  -5.3257  -5.2083  -4.0478  -3.9948  -3.9258  -3.7848
+    -2.5932  -2.5178   0.1055   0.2509   0.6701   0.7819   1.4352
+
+          k = 0.5000 0.1443 0.0000 ( 35141 PWs)   bands (ev):
+
+   -62.8886 -62.8429 -37.2318 -37.1879 -37.0233 -36.9901 -36.9780 -36.9457
+   -14.3176 -14.2419 -14.1389 -14.0689  -7.6432  -7.5477  -7.0177  -6.9343
+    -6.1174  -5.9148  -5.3256  -5.2099  -4.0770  -3.9821  -3.9178  -3.7726
+    -2.5929  -2.5189   0.1083   0.2470   0.6691   0.7828   1.4021
+
+          k =-0.4375 0.3969 0.0000 ( 35180 PWs)   bands (ev):
+
+   -62.8872 -62.8415 -37.2439 -37.2000 -37.0205 -36.9949 -36.9752 -36.9505
+   -14.2231 -14.1571 -14.0971 -14.0382  -7.7094  -7.6226  -7.1244  -7.0428
+    -6.1766  -5.9767  -5.2890  -5.2114  -4.1273  -3.9928  -3.9080  -3.8460
+    -2.5002  -2.4118   0.1615   0.2115   0.7856   0.8986   1.5373
+
+          k = 0.3750 0.0000 0.0000 ( 35337 PWs)   bands (ev):
+
+   -62.8995 -62.8539 -37.1316 -37.0876 -37.0447 -36.9994 -36.9633 -36.9188
+   -14.9404 -14.8328 -14.4125 -14.2922  -7.2029  -6.9860  -6.1610  -6.0806
+    -5.9048  -5.7438  -5.4865  -5.2287  -4.1895  -4.1393  -3.3391  -3.1580
+    -2.9024  -2.8620  -0.3710   0.0065   0.4373   0.4800   0.6580
+
+          k =-0.2500 0.3608 0.0000 ( 35241 PWs)   bands (ev):
+
+   -62.8933 -62.8477 -37.1736 -37.1295 -37.0326 -36.9940 -36.9873 -36.9497
+   -14.6053 -14.5149 -14.2591 -14.1670  -7.3049  -7.1548  -6.6289  -6.5870
+    -5.8641  -5.6869  -5.4893  -5.2509  -4.5085  -4.4374  -3.5711  -3.4409
+    -2.8089  -2.7450  -0.2103   0.2134   0.5427   0.5857   0.8718
+
+          k = 0.4375 0.0361 0.0000 ( 35241 PWs)   bands (ev):
+
+   -62.8933 -62.8477 -37.1735 -37.1295 -37.0326 -36.9941 -36.9873 -36.9496
+   -14.6084 -14.5132 -14.2610 -14.1638  -7.3040  -7.1537  -6.6288  -6.5843
+    -5.8783  -5.6816  -5.4899  -5.2494  -4.5081  -4.4384  -3.5703  -3.4317
+    -2.8035  -2.7517  -0.2092   0.2101   0.5459   0.5859   0.8531
+
+          k =-0.3125 0.3969 0.0000 ( 35167 PWs)   bands (ev):
+
+   -62.8886 -62.8429 -37.2040 -37.1600 -37.0234 -37.0189 -36.9781 -36.9746
+   -14.3264 -14.2523 -14.1315 -14.0622  -7.4001  -7.2853  -7.0280  -6.9812
+    -5.9454  -5.7519  -5.4112  -5.2091  -4.6770  -4.5679  -3.8763  -3.7181
+    -2.6080  -2.5505  -0.0166   0.2309   0.7115   0.8151   1.0850
+
+          k = 0.5000 0.0722 0.0000 ( 35167 PWs)   bands (ev):
+
+   -62.8886 -62.8429 -37.2040 -37.1601 -37.0234 -37.0190 -36.9781 -36.9745
+   -14.3298 -14.2508 -14.1327 -14.0591  -7.3996  -7.2839  -7.0278  -6.9810
+    -5.9473  -5.7530  -5.4128  -5.2095  -4.6910  -4.5573  -3.8625  -3.7212
+    -2.6073  -2.5529  -0.0142   0.2288   0.7080   0.8178   1.0540
+
+          k =-0.3750 0.4330 0.0000 ( 35162 PWs)   bands (ev):
+
+   -62.8860 -62.8404 -37.2200 -37.1761 -37.0329 -37.0183 -36.9886 -36.9730
+   -14.1646 -14.1037 -14.0557 -14.0026  -7.4461  -7.3506  -7.2444  -7.1921
+    -6.0872  -5.8881  -5.2954  -5.1595  -4.7141  -4.5751  -4.0874  -3.9174
+    -2.4245  -2.3531   0.0183   0.0938   0.9129   1.0658   1.1905
+
+          k = 0.5625 0.1083 0.0000 ( 35162 PWs)   bands (ev):
+
+   -62.8860 -62.8404 -37.2200 -37.1761 -37.0329 -37.0183 -36.9886 -36.9730
+   -14.1666 -14.1033 -14.0556 -14.0012  -7.4459  -7.3497  -7.2444  -7.1925
+    -6.0873  -5.8883  -5.2957  -5.1602  -4.7230  -4.5699  -4.0784  -3.9206
+    -2.4247  -2.3535   0.0193   0.0930   0.9108   1.0700   1.1728
+
+          k = 0.5000 0.0000 0.0000 ( 35195 PWs)   bands (ev):
+
+   -62.8886 -62.8429 -37.1894 -37.1456 -37.0339 -37.0234 -36.9896 -36.9780
+   -14.3348 -14.2545 -14.1301 -14.0551  -7.2870  -7.1572  -7.0280  -7.0009
+    -5.7878  -5.6420  -5.4206  -5.1976  -5.0003  -4.9622  -3.7907  -3.6969
+    -2.6222  -2.5727  -0.0672   0.2132   0.7163   0.8295   0.9231
+
+          k =-0.3125 0.4691 0.0000 ( 35193 PWs)   bands (ev):
+
+   -62.8855 -62.8398 -37.1943 -37.1503 -37.0664 -37.0222 -37.0172 -36.9718
+   -14.1330 -14.0770 -14.0318 -13.9828  -7.3372  -7.2987  -7.1721  -7.0776
+    -5.9121  -5.7491  -5.3357  -5.2955  -5.1667  -5.0799  -4.0874  -3.9448
+    -2.3839  -2.3305  -0.1091  -0.0100   0.8953   0.9480   1.1232
+
+          k = 0.5625 0.0361 0.0000 ( 35193 PWs)   bands (ev):
+
+   -62.8855 -62.8398 -37.1942 -37.1503 -37.0665 -37.0221 -37.0172 -36.9718
+   -14.1384 -14.0759 -14.0315 -13.9789  -7.3374  -7.2965  -7.1736  -7.0751
+    -5.9126  -5.7546  -5.3592  -5.2783  -5.1681  -5.0737  -4.0608  -3.9644
+    -2.3840  -2.3315  -0.1078  -0.0102   0.8744   0.9696   1.1138
+
+          k =-0.3750 0.5052 0.0000 ( 35190 PWs)   bands (ev):
+
+   -62.8843 -62.8387 -37.1941 -37.1501 -37.0797 -37.0354 -37.0150 -36.9697
+   -14.0635 -14.0158 -13.9919 -13.9531  -7.4371  -7.3991  -7.0945  -7.0234
+    -6.0686  -5.8985  -5.3819  -5.2591  -5.1162  -5.0287  -4.2058  -4.0848
+    -2.2580  -2.1980  -0.1886  -0.1457   0.9228   0.9669   1.2711
+
+          k = 0.6250 0.0000 0.0000 ( 35172 PWs)   bands (ev):
+
+   -62.8837 -62.8381 -37.1730 -37.1291 -37.1081 -37.0638 -37.0138 -36.9685
+   -14.0280 -13.9880 -13.9660 -13.9347  -7.5042  -7.4690  -6.8678  -6.7790
+    -6.0591  -6.0516  -5.5984  -5.5515  -5.0753  -4.9682  -4.2748  -4.1689
+    -2.1753  -2.1241  -0.3042  -0.2618   0.8387   0.8921   1.3726
+
+     the Fermi energy is    -1.0948 ev
+
+!    total energy              =    -989.17785173 Ry
+     total all-electron energy =    -19385.838274 Ry
+     estimated scf accuracy    <          3.4E-09 Ry
+     smearing contrib. (-TS)   =       0.00000876 Ry
+     internal energy E=F+TS    =    -989.17786048 Ry
+
+     The total energy is F=E-TS. E is the sum of the following terms:
+     one-electron contribution =  -10389.68351090 Ry
+     hartree contribution      =    5197.90821113 Ry
+     xc contribution           =     -59.61146824 Ry
+     ewald contribution        =    4897.13536609 Ry
+     one-center paw contrib.   =    -634.92645857 Ry
+
+     convergence has been achieved in  34 iterations
+
+     Writing all to output data dir ./tmp/gsfe_002/mos2_gsfe_002.save/ :
+     XML data file, charge density, pseudopotentials, collected wavefunctions
+
+     init_run     :    100.55s CPU    102.28s WALL (       1 calls)
+     electrons    :   5344.23s CPU   5453.23s WALL (       1 calls)
+
+     Called by init_run:
+     wfcinit      :     54.60s CPU     54.86s WALL (       1 calls)
+     potinit      :     43.13s CPU     43.57s WALL (       1 calls)
+     hinit0       :      0.33s CPU      0.36s WALL (       1 calls)
+
+     Called by electrons:
+     c_bands      :   4378.67s CPU   4404.03s WALL (      35 calls)
+     sum_band     :    726.58s CPU    765.36s WALL (      35 calls)
+     v_of_rho     :    152.67s CPU    164.64s WALL (      35 calls)
+     newd         :     77.57s CPU    111.14s WALL (      35 calls)
+     PAW_pot      :      6.99s CPU      7.00s WALL (      35 calls)
+     mix_rho      :     45.69s CPU     46.40s WALL (      35 calls)
+     vdW_kernel   :     39.68s CPU     39.69s WALL (       1 calls)
+
+     Called by c_bands:
+     init_us_2    :     39.04s CPU     39.07s WALL (    5183 calls)
+     init_us_2:cp :     39.04s CPU     39.07s WALL (    5183 calls)
+     cegterg      :   4064.90s CPU   4089.67s WALL (    2555 calls)
+
+     Called by *egterg:
+     cdiaghg      :      4.14s CPU      4.15s WALL (    8873 calls)
+     h_psi        :   2529.51s CPU   2531.74s WALL (    9019 calls)
+     s_psi        :    548.04s CPU    548.57s WALL (    9019 calls)
+     g_psi        :     17.17s CPU     17.18s WALL (    6391 calls)
+
+     Called by h_psi:
+     h_psi:calbec :    718.96s CPU    719.18s WALL (    9019 calls)
+     vloc_psi     :   1254.04s CPU   1254.90s WALL (    9019 calls)
+     add_vuspsi   :    548.47s CPU    548.63s WALL (    9019 calls)
+
+     General routines
+     calbec       :   1024.57s CPU   1024.88s WALL (   11574 calls)
+     fft          :     42.83s CPU     42.85s WALL (    2204 calls)
+     ffts         :     22.44s CPU     22.45s WALL (    4129 calls)
+     fftw         :   1116.82s CPU   1117.42s WALL (  448911 calls)
+     interpolate  :      1.02s CPU      1.02s WALL (      35 calls)
+
+     Parallel routines
+
+     PWSCF        :      1h30m CPU      1h32m WALL
+
+
+   This run was terminated on:  13:57:27  14Jun2026            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=
+[1781463447.333459] [bohr:449475:0]          ucp_ep.c:1711 UCX  DEBUG ep 0x76fb1c69b000 flags 0x200091 cfg_index 0: close_nbx(flags=0x0)
+[1781463447.333466] [bohr:449475:0]           flush.c:381  UCX  DEBUG close ep 0x76fb1c69b000
+[1781463447.333469] [bohr:449475:0]           mpool.c:281  UCX  DEBUG mpool ucp_requests: allocated chunk 0x58f6f794e734 of 41044 bytes with 128 elements
+[1781463447.333471] [bohr:449475:0]           flush.c:383  UCX  REQ   allocated request 0x58f6f7958640
+[1781463447.333473] [bohr:449475:0]           flush.c:101  UCX  REQ   req 0x58f6f7958640: progress ep=0x76fb1c69b000 flush flags=0x200491 started_lanes=0x0 count=2
+[1781463447.333474] [bohr:449475:0]           flush.c:123  UCX  REQ   req 0x58f6f7958640: ep 0x76fb1c69b000 flush lane[0]=0x58f6f62fe5d0 flags 0x0: Success
+[1781463447.333475] [bohr:449475:0]           flush.c:31   UCX  REQ   req 0x58f6f7958640: flush update ep 0x76fb1c69b000 comp_count 2->1 num_lanes 2->2 started_lanes 0x0->0x1
+[1781463447.333476] [bohr:449475:0]           flush.c:123  UCX  REQ   req 0x58f6f7958640: ep 0x76fb1c69b000 flush lane[1]=0x58f6f62ebef0 flags 0x0: Success
+[1781463447.333476] [bohr:449475:0]           flush.c:31   UCX  REQ   req 0x58f6f7958640: flush update ep 0x76fb1c69b000 comp_count 1->0 num_lanes 2->2 started_lanes 0x1->0x2
+[1781463447.333477] [bohr:449475:0]           flush.c:173  UCX  REQ   req 0x58f6f7958640: flush ep=0x76fb1c69b000 remote completions done sn=0
+[1781463447.333477] [bohr:449475:0]           flush.c:417  UCX  REQ   req 0x58f6f7958640: releasing flush ep 0x76fb1c69b000, returning status Success
+[1781463447.333478] [bohr:449475:0]   ucp_request.inl:236  UCX  REQ   put request 0x58f6f7958640
+[1781463447.333481] [bohr:449475:0]          ucp_am.c:76   UCX  DATA  worker 0x58f6f6225790: 0 unhandled first AM fragments have been dropped on ep 0x76fb1c69b000
+[1781463447.333481] [bohr:449475:0]          ucp_am.c:86   UCX  DATA  worker 0x58f6f6225790: 0 unhandled middle AM fragments have been dropped on ep 0x76fb1c69b000
+[1781463447.333482] [bohr:449475:0]          ucp_ep.c:1281 UCX  DEBUG ep 0x76fb1c69b000: destroy
+[1781463447.333482] [bohr:449475:0]          ucp_ep.c:1565 UCX  DEBUG ep 0x76fb1c69b000: cleanup lanes
+[1781463447.333483] [bohr:449475:0]          ucp_ep.c:1576 UCX  DEBUG ep 0x76fb1c69b000: pending & destroy uct_ep[0]=0x58f6f62fe5d0
+[1781463447.333484] [bohr:449475:0]          ucp_ep.c:1344 UCX  DEBUG ep 0x76fb1c69b000: unprogress iface 0x58f6f62301e0 self/memory
+[1781463447.333485] [bohr:449475:0]      ucp_worker.c:722  UCX  TRACE deactivate iface 0x58f6f62301e0 (self/memory) force=0 acount=15 aifaces=2
+[1781463447.333491] [bohr:449475:0]          ucp_ep.c:1576 UCX  DEBUG ep 0x76fb1c69b000: pending & destroy uct_ep[1]=0x58f6f62ebef0
+[1781463447.333491] [bohr:449475:0]          ucp_ep.c:1344 UCX  DEBUG ep 0x76fb1c69b000: unprogress iface 0x58f6f6221930 cma/memory
+[1781463447.333492] [bohr:449475:0]      ucp_worker.c:722  UCX  TRACE deactivate iface 0x58f6f6221930 (cma/memory) force=0 acount=6 aifaces=2
+[1781463447.333498] [bohr:449475:0]      ucp_worker.c:2847 UCX  DEBUG destroy worker 0x58f6f6225790
+[1781463447.333499] [bohr:449475:0]      ucp_worker.c:2833 UCX  DEBUG worker 0x58f6f6225790: destroy all endpoints
+[1781463447.333499] [bohr:449475:0]      ucp_worker.c:2833 UCX  DEBUG worker 0x58f6f6225790: destroy internal endpoints
+[1781463447.333500] [bohr:449475:0]      ucp_worker.c:237  UCX  DEBUG worker 0x58f6f6225790: remove active message handlers
+[1781463447.333561] [bohr:449475:0]            topo.c:791  UCX  DEBUG /sys/class/net/enp4s0: PF sysfs path is '/sys/devices/pci0000:00/0000:00:1c.2/0000:04:00.0'
+[1781463447.333590] [bohr:449475:0]            topo.c:737  UCX  TRACE enp4s0: PCIe gen2 1x, effective throughput 429.825 MB/s 3.606 Gb/s
+[1781463447.333626] [bohr:449475:0]            topo.c:791  UCX  DEBUG /sys/class/net/enp4s0: PF sysfs path is '/sys/devices/pci0000:00/0000:00:1c.2/0000:04:00.0'
+[1781463447.333639] [bohr:449475:0]            topo.c:737  UCX  TRACE enp4s0: PCIe gen2 1x, effective throughput 429.825 MB/s 3.606 Gb/s
+[1781463447.333665] [bohr:449475:0]            topo.c:791  UCX  DEBUG /sys/class/net/enp4s0: PF sysfs path is '/sys/devices/pci0000:00/0000:00:1c.2/0000:04:00.0'
+[1781463447.333678] [bohr:449475:0]            topo.c:737  UCX  TRACE enp4s0: PCIe gen2 1x, effective throughput 429.825 MB/s 3.606 Gb/s
+[1781463447.333698] [bohr:449475:0]            topo.c:791  UCX  DEBUG /sys/class/net/enp4s0: PF sysfs path is '/sys/devices/pci0000:00/0000:00:1c.2/0000:04:00.0'
+[1781463447.333711] [bohr:449475:0]            topo.c:737  UCX  TRACE enp4s0: PCIe gen2 1x, effective throughput 429.825 MB/s 3.606 Gb/s
+[1781463447.333728] [bohr:449475:0]            topo.c:791  UCX  DEBUG /sys/class/net/enp4s0: PF sysfs path is '/sys/devices/pci0000:00/0000:00:1c.2/0000:04:00.0'
+[1781463447.333742] [bohr:449475:0]            topo.c:737  UCX  TRACE enp4s0: PCIe gen2 1x, effective throughput 429.825 MB/s 3.606 Gb/s
+[1781463447.333758] [bohr:449475:0]            topo.c:791  UCX  DEBUG /sys/class/net/enp4s0: PF sysfs path is '/sys/devices/pci0000:00/0000:00:1c.2/0000:04:00.0'
+[1781463447.333772] [bohr:449475:0]            topo.c:737  UCX  TRACE enp4s0: PCIe gen2 1x, effective throughput 429.825 MB/s 3.606 Gb/s
+[1781463447.333790] [bohr:449475:0]            topo.c:791  UCX  DEBUG /sys/class/net/enp4s0: PF sysfs path is '/sys/devices/pci0000:00/0000:00:1c.2/0000:04:00.0'
+[1781463447.333804] [bohr:449475:0]            topo.c:737  UCX  TRACE enp4s0: PCIe gen2 1x, effective throughput 429.825 MB/s 3.606 Gb/s
+[1781463447.333820] [bohr:449475:0]            topo.c:791  UCX  DEBUG /sys/class/net/enp4s0: PF sysfs path is '/sys/devices/pci0000:00/0000:00:1c.2/0000:04:00.0'
+[1781463447.333833] [bohr:449475:0]            topo.c:737  UCX  TRACE enp4s0: PCIe gen2 1x, effective throughput 429.825 MB/s 3.606 Gb/s
+[1781463447.333850] [bohr:449475:0]            topo.c:791  UCX  DEBUG /sys/class/net/enp4s0: PF sysfs path is '/sys/devices/pci0000:00/0000:00:1c.2/0000:04:00.0'
+[1781463447.333864] [bohr:449475:0]            topo.c:737  UCX  TRACE enp4s0: PCIe gen2 1x, effective throughput 429.825 MB/s 3.606 Gb/s
+[1781463447.333881] [bohr:449475:0]            topo.c:791  UCX  DEBUG /sys/class/net/enp4s0: PF sysfs path is '/sys/devices/pci0000:00/0000:00:1c.2/0000:04:00.0'
+[1781463447.333895] [bohr:449475:0]            topo.c:737  UCX  TRACE enp4s0: PCIe gen2 1x, effective throughput 429.825 MB/s 3.606 Gb/s
+[1781463447.333911] [bohr:449475:0]            topo.c:791  UCX  DEBUG /sys/class/net/enp4s0: PF sysfs path is '/sys/devices/pci0000:00/0000:00:1c.2/0000:04:00.0'
+[1781463447.333926] [bohr:449475:0]            topo.c:737  UCX  TRACE enp4s0: PCIe gen2 1x, effective throughput 429.825 MB/s 3.606 Gb/s
+[1781463447.333942] [bohr:449475:0]            topo.c:791  UCX  DEBUG /sys/class/net/enp4s0: PF sysfs path is '/sys/devices/pci0000:00/0000:00:1c.2/0000:04:00.0'
+[1781463447.333955] [bohr:449475:0]            topo.c:737  UCX  TRACE enp4s0: PCIe gen2 1x, effective throughput 429.825 MB/s 3.606 Gb/s
+[1781463447.333971] [bohr:449475:0]            topo.c:791  UCX  DEBUG /sys/class/net/enp4s0: PF sysfs path is '/sys/devices/pci0000:00/0000:00:1c.2/0000:04:00.0'
+[1781463447.333986] [bohr:449475:0]            topo.c:737  UCX  TRACE enp4s0: PCIe gen2 1x, effective throughput 429.825 MB/s 3.606 Gb/s
+[1781463447.334003] [bohr:449475:0]            topo.c:791  UCX  DEBUG /sys/class/net/enp4s0: PF sysfs path is '/sys/devices/pci0000:00/0000:00:1c.2/0000:04:00.0'
+[1781463447.334017] [bohr:449475:0]            topo.c:737  UCX  TRACE enp4s0: PCIe gen2 1x, effective throughput 429.825 MB/s 3.606 Gb/s
+[1781463447.334033] [bohr:449475:0]            topo.c:791  UCX  DEBUG /sys/class/net/enp4s0: PF sysfs path is '/sys/devices/pci0000:00/0000:00:1c.2/0000:04:00.0'
+[1781463447.334047] [bohr:449475:0]            topo.c:737  UCX  TRACE enp4s0: PCIe gen2 1x, effective throughput 429.825 MB/s 3.606 Gb/s
+[1781463447.334063] [bohr:449475:0]            topo.c:791  UCX  DEBUG /sys/class/net/enp4s0: PF sysfs path is '/sys/devices/pci0000:00/0000:00:1c.2/0000:04:00.0'
+[1781463447.334076] [bohr:449475:0]            topo.c:737  UCX  TRACE enp4s0: PCIe gen2 1x, effective throughput 429.825 MB/s 3.606 Gb/s
+[1781463447.334094] [bohr:449475:0]            topo.c:791  UCX  DEBUG /sys/class/net/enp4s0: PF sysfs path is '/sys/devices/pci0000:00/0000:00:1c.2/0000:04:00.0'
+[1781463447.334108] [bohr:449475:0]            topo.c:737  UCX  TRACE enp4s0: PCIe gen2 1x, effective throughput 429.825 MB/s 3.606 Gb/s
+[1781463447.334125] [bohr:449475:0]            topo.c:791  UCX  DEBUG /sys/class/net/enp4s0: PF sysfs path is '/sys/devices/pci0000:00/0000:00:1c.2/0000:04:00.0'
+[1781463447.334139] [bohr:449475:0]            topo.c:737  UCX  TRACE enp4s0: PCIe gen2 1x, effective throughput 429.825 MB/s 3.606 Gb/s
+[1781463447.334155] [bohr:449475:0]            topo.c:791  UCX  DEBUG /sys/class/net/enp4s0: PF sysfs path is '/sys/devices/pci0000:00/0000:00:1c.2/0000:04:00.0'
+[1781463447.334168] [bohr:449475:0]            topo.c:737  UCX  TRACE enp4s0: PCIe gen2 1x, effective throughput 429.825 MB/s 3.606 Gb/s
+[1781463447.334184] [bohr:449475:0]            topo.c:791  UCX  DEBUG /sys/class/net/enp4s0: PF sysfs path is '/sys/devices/pci0000:00/0000:00:1c.2/0000:04:00.0'
+[1781463447.334199] [bohr:449475:0]            topo.c:737  UCX  TRACE enp4s0: PCIe gen2 1x, effective throughput 429.825 MB/s 3.606 Gb/s
+[1781463447.334215] [bohr:449475:0]            topo.c:791  UCX  DEBUG /sys/class/net/enp4s0: PF sysfs path is '/sys/devices/pci0000:00/0000:00:1c.2/0000:04:00.0'
+[1781463447.334230] [bohr:449475:0]            topo.c:737  UCX  TRACE enp4s0: PCIe gen2 1x, effective throughput 429.825 MB/s 3.606 Gb/s
+[1781463447.334236] [bohr:449475:0]            sock.c:90   UCX  DEBUG ioctl(req=35142, ifr_name=lo) failed: Operation not supported
+[1781463447.334238] [bohr:449475:0]         tcp_net.c:61   UCX  DEBUG speed of lo is UNKNOWN, assuming 100 Mbps
+[1781463447.334253] [bohr:449475:0]            topo.c:787  UCX  DEBUG /sys/class/net/lo: sysfs path undetected
+[1781463447.334253] [bohr:449475:0]            topo.c:744  UCX  DEBUG lo: pci bandwidth undetected, using maximal value
+[1781463447.334259] [bohr:449475:0]            sock.c:90   UCX  DEBUG ioctl(req=35142, ifr_name=lo) failed: Operation not supported
+[1781463447.334260] [bohr:449475:0]         tcp_net.c:61   UCX  DEBUG speed of lo is UNKNOWN, assuming 100 Mbps
+[1781463447.334270] [bohr:449475:0]            topo.c:787  UCX  DEBUG /sys/class/net/lo: sysfs path undetected
+[1781463447.334270] [bohr:449475:0]            topo.c:744  UCX  DEBUG lo: pci bandwidth undetected, using maximal value
+[1781463447.334276] [bohr:449475:0]            sock.c:90   UCX  DEBUG ioctl(req=35142, ifr_name=lo) failed: Operation not supported
+[1781463447.334277] [bohr:449475:0]         tcp_net.c:61   UCX  DEBUG speed of lo is UNKNOWN, assuming 100 Mbps
+[1781463447.334287] [bohr:449475:0]            topo.c:787  UCX  DEBUG /sys/class/net/lo: sysfs path undetected
+[1781463447.334287] [bohr:449475:0]            topo.c:744  UCX  DEBUG lo: pci bandwidth undetected, using maximal value
+[1781463447.334292] [bohr:449475:0]            sock.c:90   UCX  DEBUG ioctl(req=35142, ifr_name=lo) failed: Operation not supported
+[1781463447.334293] [bohr:449475:0]         tcp_net.c:61   UCX  DEBUG speed of lo is UNKNOWN, assuming 100 Mbps
+[1781463447.334304] [bohr:449475:0]            topo.c:787  UCX  DEBUG /sys/class/net/lo: sysfs path undetected
+[1781463447.334304] [bohr:449475:0]            topo.c:744  UCX  DEBUG lo: pci bandwidth undetected, using maximal value
+[1781463447.334309] [bohr:449475:0]            sock.c:90   UCX  DEBUG ioctl(req=35142, ifr_name=lo) failed: Operation not supported
+[1781463447.334310] [bohr:449475:0]         tcp_net.c:61   UCX  DEBUG speed of lo is UNKNOWN, assuming 100 Mbps
+[1781463447.334320] [bohr:449475:0]            topo.c:787  UCX  DEBUG /sys/class/net/lo: sysfs path undetected
+[1781463447.334320] [bohr:449475:0]            topo.c:744  UCX  DEBUG lo: pci bandwidth undetected, using maximal value
+[1781463447.334325] [bohr:449475:0]            sock.c:90   UCX  DEBUG ioctl(req=35142, ifr_name=lo) failed: Operation not supported
+[1781463447.334327] [bohr:449475:0]         tcp_net.c:61   UCX  DEBUG speed of lo is UNKNOWN, assuming 100 Mbps
+[1781463447.334337] [bohr:449475:0]            topo.c:787  UCX  DEBUG /sys/class/net/lo: sysfs path undetected
+[1781463447.334337] [bohr:449475:0]            topo.c:744  UCX  DEBUG lo: pci bandwidth undetected, using maximal value
+[1781463447.334342] [bohr:449475:0]            sock.c:90   UCX  DEBUG ioctl(req=35142, ifr_name=lo) failed: Operation not supported
+[1781463447.334343] [bohr:449475:0]         tcp_net.c:61   UCX  DEBUG speed of lo is UNKNOWN, assuming 100 Mbps
+[1781463447.334353] [bohr:449475:0]            topo.c:787  UCX  DEBUG /sys/class/net/lo: sysfs path undetected
+[1781463447.334354] [bohr:449475:0]            topo.c:744  UCX  DEBUG lo: pci bandwidth undetected, using maximal value
+[1781463447.334359] [bohr:449475:0]            sock.c:90   UCX  DEBUG ioctl(req=35142, ifr_name=lo) failed: Operation not supported
+[1781463447.334359] [bohr:449475:0]         tcp_net.c:61   UCX  DEBUG speed of lo is UNKNOWN, assuming 100 Mbps
+[1781463447.334370] [bohr:449475:0]            topo.c:787  UCX  DEBUG /sys/class/net/lo: sysfs path undetected
+[1781463447.334370] [bohr:449475:0]            topo.c:744  UCX  DEBUG lo: pci bandwidth undetected, using maximal value
+[1781463447.334375] [bohr:449475:0]            sock.c:90   UCX  DEBUG ioctl(req=35142, ifr_name=lo) failed: Operation not supported
+[1781463447.334376] [bohr:449475:0]         tcp_net.c:61   UCX  DEBUG speed of lo is UNKNOWN, assuming 100 Mbps
+[1781463447.334386] [bohr:449475:0]            topo.c:787  UCX  DEBUG /sys/class/net/lo: sysfs path undetected
+[1781463447.334386] [bohr:449475:0]            topo.c:744  UCX  DEBUG lo: pci bandwidth undetected, using maximal value
+[1781463447.334391] [bohr:449475:0]            sock.c:90   UCX  DEBUG ioctl(req=35142, ifr_name=lo) failed: Operation not supported
+[1781463447.334392] [bohr:449475:0]         tcp_net.c:61   UCX  DEBUG speed of lo is UNKNOWN, assuming 100 Mbps
+[1781463447.334402] [bohr:449475:0]            topo.c:787  UCX  DEBUG /sys/class/net/lo: sysfs path undetected
+[1781463447.334402] [bohr:449475:0]            topo.c:744  UCX  DEBUG lo: pci bandwidth undetected, using maximal value
+[1781463447.334407] [bohr:449475:0]            sock.c:90   UCX  DEBUG ioctl(req=35142, ifr_name=lo) failed: Operation not supported
+[1781463447.334408] [bohr:449475:0]         tcp_net.c:61   UCX  DEBUG speed of lo is UNKNOWN, assuming 100 Mbps
+[1781463447.334418] [bohr:449475:0]            topo.c:787  UCX  DEBUG /sys/class/net/lo: sysfs path undetected
+[1781463447.334419] [bohr:449475:0]            topo.c:744  UCX  DEBUG lo: pci bandwidth undetected, using maximal value
+[1781463447.334423] [bohr:449475:0]            sock.c:90   UCX  DEBUG ioctl(req=35142, ifr_name=lo) failed: Operation not supported
+[1781463447.334424] [bohr:449475:0]         tcp_net.c:61   UCX  DEBUG speed of lo is UNKNOWN, assuming 100 Mbps
+[1781463447.334434] [bohr:449475:0]            topo.c:787  UCX  DEBUG /sys/class/net/lo: sysfs path undetected
+[1781463447.334435] [bohr:449475:0]            topo.c:744  UCX  DEBUG lo: pci bandwidth undetected, using maximal value
+[1781463447.334440] [bohr:449475:0]            sock.c:90   UCX  DEBUG ioctl(req=35142, ifr_name=lo) failed: Operation not supported
+[1781463447.334441] [bohr:449475:0]         tcp_net.c:61   UCX  DEBUG speed of lo is UNKNOWN, assuming 100 Mbps
+[1781463447.334451] [bohr:449475:0]            topo.c:787  UCX  DEBUG /sys/class/net/lo: sysfs path undetected
+[1781463447.334452] [bohr:449475:0]            topo.c:744  UCX  DEBUG lo: pci bandwidth undetected, using maximal value
+[1781463447.334456] [bohr:449475:0]            sock.c:90   UCX  DEBUG ioctl(req=35142, ifr_name=lo) failed: Operation not supported
+[1781463447.334457] [bohr:449475:0]         tcp_net.c:61   UCX  DEBUG speed of lo is UNKNOWN, assuming 100 Mbps
+[1781463447.334467] [bohr:449475:0]            topo.c:787  UCX  DEBUG /sys/class/net/lo: sysfs path undetected
+[1781463447.334468] [bohr:449475:0]            topo.c:744  UCX  DEBUG lo: pci bandwidth undetected, using maximal value
+[1781463447.334474] [bohr:449475:0]            sock.c:90   UCX  DEBUG ioctl(req=35142, ifr_name=lo) failed: Operation not supported
+[1781463447.334475] [bohr:449475:0]         tcp_net.c:61   UCX  DEBUG speed of lo is UNKNOWN, assuming 100 Mbps
+[1781463447.334485] [bohr:449475:0]            topo.c:787  UCX  DEBUG /sys/class/net/lo: sysfs path undetected
+[1781463447.334485] [bohr:449475:0]            topo.c:744  UCX  DEBUG lo: pci bandwidth undetected, using maximal value
+[1781463447.334490] [bohr:449475:0]            sock.c:90   UCX  DEBUG ioctl(req=35142, ifr_name=lo) failed: Operation not supported
+[1781463447.334491] [bohr:449475:0]         tcp_net.c:61   UCX  DEBUG speed of lo is UNKNOWN, assuming 100 Mbps
+[1781463447.334501] [bohr:449475:0]            topo.c:787  UCX  DEBUG /sys/class/net/lo: sysfs path undetected
+[1781463447.334501] [bohr:449475:0]            topo.c:744  UCX  DEBUG lo: pci bandwidth undetected, using maximal value
+[1781463447.334506] [bohr:449475:0]            sock.c:90   UCX  DEBUG ioctl(req=35142, ifr_name=lo) failed: Operation not supported
+[1781463447.334507] [bohr:449475:0]         tcp_net.c:61   UCX  DEBUG speed of lo is UNKNOWN, assuming 100 Mbps
+[1781463447.334517] [bohr:449475:0]            topo.c:787  UCX  DEBUG /sys/class/net/lo: sysfs path undetected
+[1781463447.334517] [bohr:449475:0]            topo.c:744  UCX  DEBUG lo: pci bandwidth undetected, using maximal value
+[1781463447.334522] [bohr:449475:0]            sock.c:90   UCX  DEBUG ioctl(req=35142, ifr_name=lo) failed: Operation not supported
+[1781463447.334523] [bohr:449475:0]         tcp_net.c:61   UCX  DEBUG speed of lo is UNKNOWN, assuming 100 Mbps
+[1781463447.334533] [bohr:449475:0]            topo.c:787  UCX  DEBUG /sys/class/net/lo: sysfs path undetected
+[1781463447.334533] [bohr:449475:0]            topo.c:744  UCX  DEBUG lo: pci bandwidth undetected, using maximal value
+[1781463447.334538] [bohr:449475:0]            sock.c:90   UCX  DEBUG ioctl(req=35142, ifr_name=lo) failed: Operation not supported
+[1781463447.334539] [bohr:449475:0]         tcp_net.c:61   UCX  DEBUG speed of lo is UNKNOWN, assuming 100 Mbps
+[1781463447.334549] [bohr:449475:0]            topo.c:787  UCX  DEBUG /sys/class/net/lo: sysfs path undetected
+[1781463447.334549] [bohr:449475:0]            topo.c:744  UCX  DEBUG lo: pci bandwidth undetected, using maximal value
+[1781463447.334554] [bohr:449475:0]            sock.c:90   UCX  DEBUG ioctl(req=35142, ifr_name=lo) failed: Operation not supported
+[1781463447.334555] [bohr:449475:0]         tcp_net.c:61   UCX  DEBUG speed of lo is UNKNOWN, assuming 100 Mbps
+[1781463447.334565] [bohr:449475:0]            topo.c:787  UCX  DEBUG /sys/class/net/lo: sysfs path undetected
+[1781463447.334565] [bohr:449475:0]            topo.c:744  UCX  DEBUG lo: pci bandwidth undetected, using maximal value
+[1781463447.334570] [bohr:449475:0]            sock.c:90   UCX  DEBUG ioctl(req=35142, ifr_name=lo) failed: Operation not supported
+[1781463447.334571] [bohr:449475:0]         tcp_net.c:61   UCX  DEBUG speed of lo is UNKNOWN, assuming 100 Mbps
+[1781463447.334581] [bohr:449475:0]            topo.c:787  UCX  DEBUG /sys/class/net/lo: sysfs path undetected
+[1781463447.334581] [bohr:449475:0]            topo.c:744  UCX  DEBUG lo: pci bandwidth undetected, using maximal value
+[1781463447.334591] [bohr:449475:0]           mpool.c:194  UCX  DEBUG mpool ucp_reg_bufs destroyed
+[1781463447.334593] [bohr:449475:0]           mpool.c:194  UCX  DEBUG mpool ucp_am_bufs destroyed
+[1781463447.334593] [bohr:449475:0]           mpool.c:194  UCX  DEBUG mpool ucp_am_bufs destroyed
+[1781463447.334593] [bohr:449475:0]           mpool.c:194  UCX  DEBUG mpool ucp_am_bufs destroyed
+[1781463447.334594] [bohr:449475:0]           mpool.c:194  UCX  DEBUG mpool ucp_rkeys destroyed
+[1781463447.334595] [bohr:449475:0]           mpool.c:194  UCX  DEBUG mpool ucp_requests destroyed
+[1781463447.334600] [bohr:449475:0]           mpool.c:194  UCX  DEBUG mpool self_msg_desc destroyed
+[1781463447.334607] [bohr:449475:0]           async.c:156  UCX  DEBUG removed async handler 0x58f6f6206050 [id=12 ref 1] ???() from hash
+[1781463447.334609] [bohr:449475:0]           async.c:546  UCX  DEBUG removing async handler 0x58f6f6206050 [id=12 ref 1] ???()
+[1781463447.334611] [bohr:449475:0]           async.c:562  UCX  TRACE waiting for 0x58f6f6206050 [id=12 ref 1] ???() completion (called=0)
+[1781463447.334612] [bohr:449475:0]           async.c:171  UCX  DEBUG release async handler 0x58f6f6206050 [id=12 ref 0] ???()
+[1781463447.334613] [bohr:449475:0]       tcp_iface.c:838  UCX  DEBUG tcp_iface 0x58f6f6230710: destroying
+[1781463447.334617] [bohr:449475:0]           async.c:156  UCX  DEBUG removed async handler 0x58f6f6241550 [id=13 ref 1] ???() from hash
+[1781463447.334617] [bohr:449475:0]           async.c:546  UCX  DEBUG removing async handler 0x58f6f6241550 [id=13 ref 1] ???()
+[1781463447.334619] [bohr:449475:0]           async.c:562  UCX  TRACE waiting for 0x58f6f6241550 [id=13 ref 1] ???() completion (called=0)
+[1781463447.334619] [bohr:449475:0]           async.c:171  UCX  DEBUG release async handler 0x58f6f6241550 [id=13 ref 0] ???()
+[1781463447.334621] [bohr:449475:0]           mpool.c:194  UCX  DEBUG mpool uct_tcp_iface_rx_buf_mp destroyed
+[1781463447.334622] [bohr:449475:0]           mpool.c:194  UCX  DEBUG mpool uct_tcp_iface_tx_buf_mp destroyed
+[1781463447.334627] [bohr:449475:0]           async.c:156  UCX  DEBUG removed async handler 0x58f6f6211a30 [id=14 ref 1] ???() from hash
+[1781463447.334627] [bohr:449475:0]           async.c:546  UCX  DEBUG removing async handler 0x58f6f6211a30 [id=14 ref 1] ???()
+[1781463447.334628] [bohr:449475:0]           async.c:562  UCX  TRACE waiting for 0x58f6f6211a30 [id=14 ref 1] ???() completion (called=0)
+[1781463447.334629] [bohr:449475:0]           async.c:171  UCX  DEBUG release async handler 0x58f6f6211a30 [id=14 ref 0] ???()
+[1781463447.334629] [bohr:449475:0]       tcp_iface.c:838  UCX  DEBUG tcp_iface 0x58f6f6230e90: destroying
+[1781463447.334630] [bohr:449475:0]           async.c:156  UCX  DEBUG removed async handler 0x58f6f62116b0 [id=15 ref 1] ???() from hash
+[1781463447.334630] [bohr:449475:0]           async.c:546  UCX  DEBUG removing async handler 0x58f6f62116b0 [id=15 ref 1] ???()
+[1781463447.334631] [bohr:449475:0]           async.c:562  UCX  TRACE waiting for 0x58f6f62116b0 [id=15 ref 1] ???() completion (called=0)
+[1781463447.334631] [bohr:449475:0]           async.c:171  UCX  DEBUG release async handler 0x58f6f62116b0 [id=15 ref 0] ???()
+[1781463447.334632] [bohr:449475:0]           mpool.c:194  UCX  DEBUG mpool uct_tcp_iface_rx_buf_mp destroyed
+[1781463447.334632] [bohr:449475:0]           mpool.c:194  UCX  DEBUG mpool uct_tcp_iface_tx_buf_mp destroyed
+[1781463447.334635] [bohr:449475:0]           async.c:156  UCX  DEBUG removed async handler 0x58f6f61f2af0 [id=16 ref 1] ???() from hash
+[1781463447.334635] [bohr:449475:0]           async.c:546  UCX  DEBUG removing async handler 0x58f6f61f2af0 [id=16 ref 1] ???()
+[1781463447.334637] [bohr:449475:0]           async.c:562  UCX  TRACE waiting for 0x58f6f61f2af0 [id=16 ref 1] ???() completion (called=0)
+[1781463447.334638] [bohr:449475:0]           async.c:171  UCX  DEBUG release async handler 0x58f6f61f2af0 [id=16 ref 0] ???()
+[1781463447.334793] [bohr:449475:0]           mpool.c:194  UCX  DEBUG mpool mm_recv_desc destroyed
+[1781463447.334805] [bohr:449475:0]           async.c:156  UCX  DEBUG removed async handler 0x58f6f6221680 [id=18 ref 1] ???() from hash
+[1781463447.334805] [bohr:449475:0]           async.c:546  UCX  DEBUG removing async handler 0x58f6f6221680 [id=18 ref 1] ???()
+[1781463447.334806] [bohr:449475:0]           async.c:562  UCX  TRACE waiting for 0x58f6f6221680 [id=18 ref 1] ???() completion (called=0)
+[1781463447.334807] [bohr:449475:0]           async.c:171  UCX  DEBUG release async handler 0x58f6f6221680 [id=18 ref 0] ???()
+[1781463447.335060] [bohr:449475:0]           mpool.c:194  UCX  DEBUG mpool mm_recv_desc destroyed
+[1781463447.335069] [bohr:449475:0]           mpool.c:194  UCX  DEBUG mpool uct_scopy_ifaceNote: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+_tx_mp destroyed
+[1781463447.335145] [bohr:449475:0]           async.c:156  UCX  DEBUG removed async handler 0x58f6f626b170 [id=7 ref 1] ???() from hash
+[1781463447.335146] [bohr:449475:0]           async.c:546  UCX  DEBUG removing async handler 0x58f6f626b170 [id=7 ref 1] ???()
+[1781463447.335262] [bohr:449475:0]           async.c:562  UCX  TRACE waiting for 0x58f6f626b170 [id=7 ref 1] ???() completion (called=0)
+[1781463447.335263] [bohr:449475:0]           async.c:171  UCX  DEBUG release async handler 0x58f6f626b170 [id=7 ref 0] ???()
+[1781463447.335266] [bohr:449475:0]         pgtable.c:618  UCX  DEBUG purge empty page table
+[1781463447.335267] [bohr:449475:0]           mpool.c:194  UCX  DEBUG mpool rcache_mp destroyed

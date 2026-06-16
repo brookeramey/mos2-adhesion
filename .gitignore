@@ -1,0 +1,4 @@
+tmp/
+*.cube
+*.dat
+nohup*.log

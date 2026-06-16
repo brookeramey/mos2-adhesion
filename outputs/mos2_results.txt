@@ -1,0 +1,18 @@
+MoS2 Complete Adhesion Fingerprint — June 2026
+===============================================
+Cleavage:
+  W_ad  = 22.99 meV/Å²
+  λ     = 0.7347 Å
+  F_max = 1844.1 MPa
+
+GSFE:
+  W_SP     = 7.359 meV/Å²
+  W_AA     = 17.642 meV/Å²
+  τ_ideal  = 1.672 GPa
+  W_SP/Wad = 32.0%
+
+Process:
+  Stamp window = 22.99 – 45.98 meV/Å²
+  Peel angle   = 47.8°
+  LPE solvent  = 11.5 mJ/m²
+  δd_min       = 0.735 Å
